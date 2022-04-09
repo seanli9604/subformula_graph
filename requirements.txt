@@ -1,0 +1,4 @@
+netCDF4
+networkx
+numpy
+matplotlib
