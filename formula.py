@@ -1,7 +1,11 @@
 import itertools
+import functools
 import re
-from typing import List
-from typing import Tuple
+import numpy as np
+from typing import List, TypeVar
+
+
+tree = TypeVar('Tree')
 
 #these are all for the most abundant isotope!
 int_masses = {"H": 1,
@@ -22,141 +26,166 @@ exact_masses =  {"H": 1.00782503207,
                   "S": 31.97207100,
                   "Cl": 34.96885268}
 
-alphabet = [1,12,14,16,19,31,32,35]
-exact_m = [1.00782503207,12,14.0030740048,15.99491461956,18.99840322,30.97376163,31.97207100,34.96885268]
+mass_of_electron = 0
 
-#######################types###########################
-Vector = List[float]
-
-
-#######################formula/compomer manipulation###########################
-
-def mf_to_compomer(mf:str, elements:List[str])->List[int]: #converts a string molecular formula into a compomer given a list of alphabet
+class Formula:
     
-    if mf == []:  #no parent
-        return []
-
-    compomer = [0]*len(elements)
-    for num, elem in enumerate(elements):
-        if re.search(elem + "[0-9][0-9]",mf):
-            ind = re.search(elem + "[0-9][0-9]",mf).end()
-            compomer[num] += int(mf[ind-2:ind])
-        elif re.search(elem + "[0-9]",mf):
-            ind = re.search(elem + "[0-9]",mf).end()
-            compomer[num] += int(mf[ind-1])
-        elif re.search(elem,mf):
-            compomer[num] += 1
-    return compomer
-
-def alpha_to_vec(alpha: List[str],exact=False)->Vector:
+    def __init__(self, alphabet:List[str], compomer:List[int]):
+        self.alphabet = alphabet
+        self.compomer = np.array(compomer)
+        self.nom_mass = sum(map(lambda x, y: int_masses[x]*y, self.alphabet, self.compomer))
+        self.exact_mass = sum(map(lambda x, y: exact_masses[x]*y, self.alphabet, self.compomer))
     
-    if exact:
-        vec = [exact_masses[i] for i in alpha]
-    else:
-        vec = [int_masses[i] for i in alpha]
-    return vec
-
-def mw(compomer:Vector, alpha:List[str])->float:
-    
-    def dot_product(a:Vector,b:Vector)->float:
-        return sum([a[i]*b[i] for i in range(len(a))])
-    
-    v = alpha_to_vec(alpha, exact=True)
-    return dot_product(v, compomer) 
-
-def vec_add(c1:Vector, c2:Vector)->Vector:
-    return [c1[i] + c2[i] for i in range(len(c1))]
-
-def is_subformula(f:Vector, s:Vector)->bool:
-    return sum([f[i] - s[i] < 0 for i in range(len(f))]) == 0
-
-def same_formula(f1:Vector,f2:Vector)->bool: 
-    return sum([abs(f1[i]-f2[i]) for i in range(len(f1))]) == 0
-
-def diff(f:Vector, s:Vector)->Vector: # Vector subtraction
-    return [f[i] - s[i] for i in range(len(f))]
-
-def mass_diff(formula, mass:float, alphabet:List[str], as_string=False): #mass deviation between "exact" mass of possible formula and measured mass
-    return abs(mass  - mw(formula, alphabet)) if not as_string else abs(mass - mw(mf_to_compomer(formula,alphabet), alphabet))
-
-
-#########################formula enumeration algorithm#########################
-
-
-def enum_mf(alphabet: Vector, M:int, use_heuristics=True)->List[List[int]]:
-    
-    def is_leaf(t:tuple)->bool:
-        return len(t) == 1 and type(t[0]) is int
-
-    def sum_tree(t:tuple)->int:
-        if is_leaf(t):
-            return sum(t)
-        elif type(t[0]) is int:
-            return t[0] + sum_tree(t[1])
-        else:
-            return sum_tree(t[0])
-
-    def bin_into(l:tuple,maxint:int)->List[tuple]: #bin subtrees into groups
-        res = [[] for i in range(maxint)]
-        for t in l:
-            if sum_tree(t) < maxint:
-                res[sum_tree(t)].append(t)
-        return [tuple(i) for i in res if len(i) != 0]
-
-    def traverse_tree(tree:tuple)->List[List[int]]: #traverse formula tree to obtain formula list
-        res = []
-        def s(t,r):
-            if is_leaf(t):
-                res.append(r[1:]+[t[0]])
-            elif type(t[0]) is int:
-                [s(branch,r+[t[0]]) for branch in t[1:]] 
-            else:
-                [s(branch, r) for branch in t]
-        s(tree,[])
-        return res
-
-# Produce generating functions based on the alphabet
-    def produce_gfs(alphabet:Vector, M:int, use_heuristics:bool)->List[List[int]]:
-        l = [ [ j for j in range(0,M+1,i)] for i in alphabet]
-        if use_heuristics:
-            l[0] = l[0][:2* len(l[1]) + 2] # truncate hydrogens
-            l[1] = l[1][int(M/(4*12)):] #truncate carbons
-        return l 
-
-    def tree(alpha:Vector, M:int)->tuple: #construct formula tree
-        L = produce_gfs(alpha,M, use_heuristics)
-        def r(L,M,prod):
-            return list(prod)[-1] if L == [] else r(L[1:], M, bin_into(itertools.product(L[0],prod),M+1))
-        return (0, r(L[1:],M,[(i,) for i in L[0]]))
-    
-    def compomer(vec:Vector)->Vector: #obtain c_i of compomer by n_i/m_i
-        return [int(vec[i]/alphabet[i]) for i in range(len(vec))] 
+    def __repr__(self):
         
-    return [compomer(i[::-1]) for i in traverse_tree(tree(alphabet, M))]
+        def func(elem, coeff):
+            if coeff == 0:
+                return ""
+            elif coeff == 1:
+                return elem
+            else:
+                return elem + str(coeff)
+
+        partial_str = map(func, self.alphabet, self.compomer)
+        return functools.reduce(lambda x,y: x + y, partial_str)
+    
+
+    def formula_from_string(string:str, alphabet: List[str]): #could rewrite this
+        compomer = [0]*len(alphabet)
+        for num, elem in enumerate(alphabet):
+            if re.search(elem + "[0-9][0-9]",string):
+                ind = re.search(elem + "[0-9][0-9]",string).end()
+                compomer[num] += int(string[ind-2:ind])
+            elif re.search(elem + "[0-9]",string):
+                ind = re.search(elem + "[0-9]",string).end()
+                compomer[num] += int(string[ind-1])
+            elif re.search(elem,string):
+                compomer[num] += 1
+        return Formula(alphabet,compomer)
+    
+    def add_formulas(f1, f2):
+        return Formula(f1.alphabet, f1.compomer + f2.compomer)
+    
+    def is_subformula(formula, sub):
+        return min(formula.compomer - sub.compomer) >= 0 
+    
+    def same_formula(f1,f2):
+        return np.linalg.norm(f1.compomer - f2.compomer) == 0
+    
+    def subtract_formulas(f1, f2):
+        return Formula(f1.alphabet, f1.compomer - f2.compomer)
+    
+    def mass_deviation(self, exp_mass): #return mass deviation from experimental mass in ppm
+        return 10**6 * (self.exact_mass - exp_mass) / exp_mass
+    
+    def dbe(self): #ring + double bond formula: DBE = n(C) + 1 - n(H)/2 + n(N)/2 
+        return 1 + self.compomer[self.alphabet.index("C")] - (self.compomer[self.alphabet.index("H")]/2) + (self.compomer[self.alphabet.index("N")]/2)
 
 
-#########################HR-MS functions#########################
+class Tree:
+    
+    def __init__(self, data=None, daughters=None):
+        self.daughters = daughters
+        self.data = data
 
-#ad-hoc dbe function!
-def dbe(compomer:Vector)->float:
-    return compomer[0] + 1 - (compomer[1]/2) + (compomer[2]/2)
+    def traverse(self, index):
+        return self.daughters[index]
+    
+    def sum_tree(self):
+        if self.data == None:
+            return 0
+        elif self.daughters == None:
+            return self.data 
+        else:
+            return self.data + self.traverse(0).sum_tree()
+    
 
-def HR_CF(alphabet:List[str], M:float, tol:float, parent=[], use_heuristics = True, as_vec = False)->List[List[int]]:
-    lst = enum_mf(alpha_to_vec(alphabet), int(round(M,0)), use_heuristics)
-    #filters list of formulae by accuracy of mass spectral data
-    lst = [i for i in lst if mass_diff(i, M, alphabet) < tol ]
-    lst.sort(key=lambda x: mass_diff(x, M, alphabet))
-    if parent != []:
-        lst = [i for i in lst if is_subformula(parent, i) and dbe(i) >= 0] 
-    return lst if as_vec else CF(lst, alphabet)
+    def expand_tree(self, alphabet): #expands formula tree into list of compomers with an alphabet
+        res = []
+
+        def s(t, r , depth):
+            if depth > 0:
+                r[depth-1] = t.data 
+            if depth == len(alphabet):
+                res.append(r.copy())
+            else:
+                for daughter in t.daughters:
+                    s(daughter, r, depth+1)
+
+        s(self, np.zeros((len(alphabet),),dtype=int), 0)
+        return [i[::-1] // alphabet for i in res]
 
 
-def produce_CF(compomer:Vector, alphabet:List[str])->str: 
-    # Can be any list of symbols corresponding to elements
-    a = alphabet.copy()
-    #a[0],a[1] = a[1],a[0]
-    res = [a[i]+str(compomer[i]) for i in range(len(compomer)) if compomer[i] != 0]
-    return  "".join([i if len(i) != 2 or i[1] != "1" else i[0] for i in res])
+class ElemRange:
 
-def CF(compomer_lst:Vector, alphabet:List[str])->List[str]: #returns list of molecular formulae
-        return [produce_CF(i, alphabet) for i in compomer_lst]
+    def __init__(self, alpha, mass):
+        self.alpha = alpha
+        self.mass = mass
+        self.min_elems = {elem: 0 for elem in alpha}
+        self.max_elems = {elem: int(mass / int_masses[elem]) for elem in alpha}
+    
+    def set_min_max_elements(self, heuristic_list): 
+        for elem, entry in heuristic_list.items():
+            if "min" in entry:
+                self.min_elems[elem] = entry['min']
+            if "max" in entry:
+                self.max_elems[elem] = entry['max'] 
+        return
+
+    def default_heuristic(self):
+        heuristic = {"C": {"min": int(self.mass/(4*12))}, "H": {"max": 2 * self.max_elems["C"] + 2}}
+        self.set_min_max_elements(heuristic)
+        return
+    
+    def custom_heuristic(self, heuristic):
+        res = {"C": {"min": int(self.mass/(4*12))}, "H": {"max": 2 * self.max_elems["C"] + 2}}
+        for elem in heuristic:
+            res[elem] = heuristic[elem]
+        self.set_min_max_elements(heuristic)
+        return
+
+    def parental_restriction(self, formula): #fragments must be subformulae of parent!
+        f = {elem : coeff for elem,coeff in zip(formula.alphabet,formula.compomer)}
+        for elem, coeff in f.items():
+            self.max_elems[elem] = coeff
+        return
+
+    def get_gfs(self):
+        gfs = []
+        for elem in self.alpha:
+            gf = range(int_masses[elem] * self.min_elems[elem], int_masses[elem] * self.max_elems[elem] + 1, int_masses[elem])
+            gfs.append(list(gf))
+        return gfs
+
+
+class MFGenerator(ElemRange):
+
+    def enumerate_compomers(self):
+
+        def build_trees_from_treelist(generating_fn:List[int], list_of_tree_lists:List[List[tree]])->List[tree]:
+            first_tree = lambda p: p[1][0]
+            return [Tree(prod[0], prod[1]) for prod in itertools.product(generating_fn, list_of_tree_lists) 
+            if first_tree(prod).sum_tree() + prod[0] < self.mass + 1]
+    
+        def bin_trees(tree_list:List[tree])->List[List[tree]]:
+            res = [[] for i in range(self.mass + 1)]
+            for tree in tree_list:
+                if tree.sum_tree() < self.mass + 1:
+                    res[tree.sum_tree()].append(tree)
+            return [tuple(trees) for trees in res if len(trees) != 0]
+
+        base_case = [[Tree()]] #singleton list of lists
+        list_of_tree_lists = functools.reduce(lambda t,gf: bin_trees(build_trees_from_treelist(gf,t)), self.get_gfs(), base_case)
+        
+        formula_tree = Tree(0, list_of_tree_lists[-1]) #merge final list of trees into one tree with dummy node
+        alpha_array = np.array([int_masses[elem] for elem in self.alpha],dtype=int)
+
+        return formula_tree.expand_tree(alpha_array)
+    
+    
+    def get_formula_list(self, exp_mass, tol, DBE_restriction = None): #e.g lambda x: x.dbe() >= 0 and x.dbe().is_integer()
+        formula_list = [Formula(self.alpha, c) for c in  self.enumerate_compomers()]
+        formula_list = filter(lambda x: abs(x.mass_deviation(exp_mass)) < tol, formula_list)
+        if DBE_restriction != None:
+            formula_list = filter(DBE_restriction, formula_list)
+        return sorted(list(formula_list), key=lambda x: x.mass_deviation(exp_mass))
