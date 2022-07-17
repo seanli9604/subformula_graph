@@ -1,0 +1,9 @@
+{ Allowed Elements:  C, H, N(0-5), O, S(0-3) }
+
+{ Molecular mass range: (150, 250) }
+
+{ Intensity factor: 0.001 }
+
+{ Chromatogram peak sensitivity: 50 }
+
+{ ppm error: 10 }
