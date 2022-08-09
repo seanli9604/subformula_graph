@@ -18,8 +18,8 @@ def plot_chromatogram(data:netcdf.Chromatogram, intensity_factor:int):
 
     plt.ylabel("Total ion current")
     plt.xlabel("Time (minutes)")
-    plt.show()
-
+    plt.savefig('chromatogram.png')
+    plt.clf()
 
 def plot_mass_spectrum(spectrum:netcdf.MassSpectrum):
     max_mass = int(max(spectrum.masses)) + 1
@@ -44,7 +44,8 @@ def plot_mass_spectrum(spectrum:netcdf.MassSpectrum):
     plt.xlabel("m/z")
     plt.ylabel("Abundance")
     plt.title("Mass spectrum")
-    plt.show()
+    plt.savefig('spectrum.png')
+    plt.clf()
 
 
 def plot_annotated_mass_spectrum(spectrum, graph): 

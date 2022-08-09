@@ -10,11 +10,6 @@ import algorithm.plots as plots
 def open_file(filename):
     return chromatogram.Chromatogram(f"./data/{filename}")
 
-try:
-    parameters = config.parse_config("./config.json")
-except KeyError:
-    raise Exception("Error, either one or more parameters missing from configuration file or invalid configuration file!")
-
 def print_formulae(formulae_list):
     for f in formulae_list:
         print("Exp Mass: {} Formula: {} Score: {} Mass Deviation: {}".format(*f))
@@ -44,13 +39,18 @@ def print_table(mat): #prints formulae list LaTeX table given the information
     print(r"\end{center}")
     print(r"\end{table}")
 
+if __name__ == "__main__":
+    try:
+        parameters = config.parse_config("./config.json")
+    except KeyError:
+        raise Exception("Error, either one or more parameters missing from configuration file or invalid configuration file!")
 
-data = open_file("WF12011.CDF")
+    data = open_file("WF12011.CDF")
 
-plots.plot_chromatogram(data, parameters.peak_sensitivity)
-n = 5 # int(input("Enter Scan Number: "))
-ms = data.get_raw_MS(n).binned_MS().conventional_norm().intensity_cutoff(parameters.intensity_factor, 999)
-plots.plot_mass_spectrum(ms)   
-ions = subformula_graph.find_molecular_ion(ms, *parameters.mass_range, parameters.alphabet, parameters.ppm_error, parameters.heuristic)
-print("\n\nResults:\n")
-print_formulae(ions)
+    plots.plot_chromatogram(data, parameters.peak_sensitivity)
+    n = int(input("Enter Scan Number: "))
+    ms = data.get_raw_MS(n).binned_MS().conventional_norm().intensity_cutoff(parameters.intensity_factor, 999)
+    plots.plot_mass_spectrum(ms)   
+    ions = subformula_graph.find_molecular_ion(ms, *parameters.mass_range, parameters.alphabet, parameters.ppm_error, parameters.heuristic)
+    print("\n\nResults:\n")
+    print_formulae(ions)
