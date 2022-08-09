@@ -1,7 +1,7 @@
 import netCDF4 
 import scipy.signal as sig
 import matplotlib.pyplot as plt 
-import utils 
+import algorithm.utils as utils 
 from typing import List
 
 class NetCDF4ScanData:

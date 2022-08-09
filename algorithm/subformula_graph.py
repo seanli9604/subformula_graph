@@ -1,9 +1,9 @@
 import itertools
 import matplotlib.pyplot as plt 
 import networkx as nx
-import chromatogram 
+import algorithm.chromatogram as chromatogram 
 
-import formula as mf 
+import algorithm.formula as mf 
 from typing import List 
 
 Vector = List[float]
