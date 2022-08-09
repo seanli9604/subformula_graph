@@ -1,0 +1,30 @@
+{
+    "allowed_elements": [
+        {
+            "element": "C"
+        },
+        {
+            "element": "H"
+        },
+        {
+            "element": "N",
+            "min": 0,
+            "max": 5
+        },
+        {
+            "element": "O"
+        },
+        {
+            "element": "S",
+            "min": 0,
+            "max": 3
+        }
+    ],
+    "molecular_mass_range": {
+        "min": 150.0,
+        "max": 250.0
+    },
+    "intensity_factor": 0.001,
+    "chromatogram_peak_sensitivity": 50,
+    "ppm_error": 10
+}
