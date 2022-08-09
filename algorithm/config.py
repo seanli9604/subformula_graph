@@ -1,7 +1,7 @@
 import os
 import re 
 
-os.chdir(r"C:/Users/Darrin DeYoung/Desktop/abcde/subformula-graphs/")
+#os.chdir(r"C:/Users/Darrin DeYoung/Desktop/abcde/subformula-graphs/")
 
 class Parameters:
 

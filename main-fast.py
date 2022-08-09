@@ -8,7 +8,7 @@ import plots
 
 
 def open_file(filename):
-    return chromatogram.Chromatogram(os.path.dirname(sys.argv[0]) + "\\" + filename)
+    return chromatogram.Chromatogram(f"./{filename}")
 
 try:
     parameters = config.parse_main()
@@ -45,10 +45,10 @@ def print_table(mat): #prints formulae list LaTeX table given the information
     print(r"\end{table}")
 
 
-data = open_file("WF12059.cdf")
+data = open_file("WF12011.CDF")
 
 plots.plot_chromatogram(data, parameters.peak_sensitivity)
-n = int(input("Enter Scan Number: "))
+n = 5 # int(input("Enter Scan Number: "))
 ms = data.get_raw_MS(n).binned_MS().conventional_norm().intensity_cutoff(parameters.intensity_factor, 999)
 plots.plot_mass_spectrum(ms)   
 ions = subformula_graph.find_molecular_ion(ms, *parameters.mass_range, parameters.alphabet, parameters.ppm_error, parameters.heuristic)

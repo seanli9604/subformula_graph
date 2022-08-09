@@ -1,4 +1,4 @@
-import netcdf 
+import chromatogram as netcdf
 import matplotlib.pyplot as plt 
 
 def plot_chromatogram(data:netcdf.Chromatogram, intensity_factor:int):
