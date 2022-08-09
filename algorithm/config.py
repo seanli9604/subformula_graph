@@ -27,9 +27,9 @@ def parse_config(config_path):
                 for obj in config["allowed_elements"]
                 if obj.keys().__contains__("min") and obj.keys().__contains__("max")
             },
-            [obj["molecular_mass_range"]["min"],
-                obj["molecular_mass_range"]]["max"],
+            [config["molecular_mass_range"]["min"],
+                config["molecular_mass_range"]["max"]],
             config["intensity_factor"],
-            config["peak_sensitivity"],
+            config["chromatogram_peak_sensitivity"],
             config["ppm_error"]
         )

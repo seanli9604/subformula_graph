@@ -1,14 +1,14 @@
 import os
 import sys
-import chromatogram
-import formula as mf
-import config
-import subformula_graph
-import plots
+import algorithm.chromatogram as chromatogram
+import algorithm.formula as mf
+import algorithm.config as config
+import algorithm.subformula_graph as subformula_graph
+import algorithm.plots as plots
 
 
 def open_file(filename):
-    return chromatogram.Chromatogram(f"./{filename}")
+    return chromatogram.Chromatogram(f"./data/{filename}")
 
 try:
     parameters = config.parse_config("./config.json")
