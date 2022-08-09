@@ -10,7 +10,6 @@ app = Flask(__name__)
 def get_chromatagram(name):
     return main_fast.open_file(name)
 
-
 def set_chromatagram(name, data):
     with open(name, 'w') as f:
         f.write(data)
@@ -21,6 +20,10 @@ def delete_chromatagram(name):
     except OSError:
         pass
 
+def mass_spectrum(name, scan_number, intensity_factor):
+    data = get_chromatagram(name)
+    ms = data.get_raw_MS(scan_number).binned_MS().conventional_norm().intensity_cutoff(intensity_factor, 999)
+    return ms
 
 @app.route("/<data>/chromatogram", methods=["GET"])
 def chromatogram(data):
@@ -32,19 +35,26 @@ def chromatogram(data):
 
 @app.route('/<data>/spectrum', methods=["GET"])
 def spectrum(data):
-    data = main_fast.open_file(data)
     scan_number = int(request.args.get('scan_number', default=1))
     intensity_factor = float(request.args.get(
         'intensity_factor', default=0.001))
-    ms = data.get_raw_MS(scan_number).binned_MS(
-    ).conventional_norm().intensity_cutoff(intensity_factor, 999)
+    ms = mass_spectrum(data, scan_number, intensity_factor)
     plot_mass_spectrum(ms)
     return send_file('spectrum.png', mimetype='image/png')
 
 
 @app.route('/<data>/formulae', methods=["GET"])
 def formulae(data):
-    raise NotImplementedError()
+    peak_sensitivity = int(request.args.get('peak_sensitivity', default=50))
+    alphabet = request.args.get('alphabet', default='ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+    ppm_error = float(request.args.get('ppm_error', default=1))
+    heuristic = request.args.get('heuristic', default='all')
+    mass_range = [float(request.args.get('mass_range_min', default=0)), float(request.args.get('mass_range_max', default=1000))]
+    scan_number = int(request.args.get('scan_number', default=1))
+    intensity_factor = float(request.args.get('intensity_factor', default=0.001))
+    ms = mass_spectrum(data, scan_number, intensity_factor)
+    ions = find_molecular_ion(ms, *mass_range, alphabet, ppm_error, heuristic)
+    return str(ions)
 
 
 @app.route('/<data>', methods=["PUT", "POST", "GET", "DELETE"])
