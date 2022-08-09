@@ -11,7 +11,7 @@ def open_file(filename):
     return chromatogram.Chromatogram(f"./{filename}")
 
 try:
-    parameters = config.parse_main()
+    parameters = config.parse_config("./config.json")
 except KeyError:
     raise Exception("Error, either one or more parameters missing from configuration file or invalid configuration file!")
 
