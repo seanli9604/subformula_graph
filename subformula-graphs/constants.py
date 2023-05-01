@@ -1,9 +1,6 @@
-
 ''' This file contains the allowed elements along with some of their properties.
 If one wishes to add more (allowed) elements, simply change the ALPHABET list. Be sure to
 update the INT_MASSES, EXACT_MASSES and DBES for said element as well!'''
-
-
 
 #these are all for the most abundant isotope!
 INT_MASSES = {"H": 1,
