@@ -1,0 +1,57 @@
+NAME: Benzyl cinnamate
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2110.2
+PRECURSORMZ: 238.0988
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C16H14O2
+INCHIKEY: NGHOLYJTSCBCGC-UHFFFAOYSA-N
+INCHI: 
+SMILES: C1=CC=C(C=C1)COC(=O)C=CC2=CC=CC=C2
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 36
+74.0151	147036	"Theoretical m/z 74.01565, Mass diff 0 (0 ppm), Formula C6H2"
+75.02296	167708	"Theoretical m/z 75.023475, Mass diff 0 (0 ppm), Formula C6H3"
+76.03078	297841	"Theoretical m/z 76.030753, Mass diff 0 (0.36 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-2H]+, Rule of HR False"
+77.03857	2943062	"Theoretical m/z 77.038578, Mass diff 0 (0.1 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-H]+, Rule of HR True"
+78.04642	562842	"Theoretical m/z 78.046403, Mass diff 0 (0.22 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6]+, Rule of HR False"
+79.04166	827043
+89.03859	983624	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+90.04647	350018	"Theoretical m/z 90.046401, Mass diff 0 (0.77 ppm), SMILES *CC=1C=CC=CC1, Annotation [C7H8-2H]+, Rule of HR False"
+91.05424	10131678	"Theoretical m/z 91.054226, Mass diff 0 (0.16 ppm), SMILES *CC=1C=CC=CC1, Annotation [C7H8-H]+, Rule of HR True"
+92.05758	839010
+95.04915	431995	"Theoretical m/z 95.049141, Mass diff 0 (0.1 ppm), SMILES C\C(=C\C=C)C#[O+], Annotation [C6H7O]+, Rule of HR True"
+102.04642	1041195	"Theoretical m/z 102.046401, Mass diff 0 (0.19 ppm), SMILES *C=CC=1C=CC=CC1, Annotation [C8H8-2H]+, Rule of HR False"
+103.05421	6881438	"Theoretical m/z 103.054226, Mass diff 0 (0.15 ppm), SMILES *C=CC=1C=CC=CC1, Annotation [C8H8-H]+, Rule of HR True"
+104.06203	1560308	"Theoretical m/z 104.062051, Mass diff 0 (0.2 ppm), SMILES *C=CC=1C=CC=CC1, Annotation [C8H8]+, Rule of HR False"
+105.0335	515675	"Theoretical m/z 105.03404, Mass diff 0 (0 ppm), Formula C7H5O"
+107.04915	170712	"Theoretical m/z 107.049141, Mass diff 0 (0.08 ppm), SMILES [OH+]=CC1=CC=CC=C1, Annotation [C7H7O]+, Rule of HR True"
+115.05421	4029798	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+116.06204	904284	"Theoretical m/z 116.0626, Mass diff 0 (0 ppm), Formula C9H8"
+131.04913	9143830	"Theoretical m/z 131.049137, Mass diff 0 (0.05 ppm), SMILES *C(=O)C=CC=1C=CC=CC1, Annotation [C9H8O-H]+, Rule of HR True"
+132.05247	997663
+147.04399	743450	"Theoretical m/z 147.044056, Mass diff 0 (0.45 ppm), SMILES *OC(=O)C=CC=1C=CC=CC1, Annotation [C9H8O2-H]+, Rule of HR True"
+160.05183	169554	"Theoretical m/z 160.051886, Mass diff 0 (0.35 ppm), SMILES *COC(=O)C=CC=1C=CC=CC1, Annotation [C10H10O2-2H]+, Rule of HR False"
+165.06979	356040	"Theoretical m/z 165.070425, Mass diff 0 (0 ppm), Formula C13H9"
+178.07758	2609704	"Theoretical m/z 178.07825, Mass diff 0 (0 ppm), Formula C14H10"
+179.08543	931411	"Theoretical m/z 179.086075, Mass diff 0 (0 ppm), Formula C14H11"
+180.08878	119307
+191.0854	1697811	"Theoretical m/z 191.086075, Mass diff 0 (0 ppm), Formula C15H11"
+192.09318	11527729
+193.09659	1621159
+193.10103	6871272	"Theoretical m/z 193.101725, Mass diff 0 (0 ppm), Formula C15H13"
+194.10431	950942
+203.08542	140059	"Theoretical m/z 203.086075, Mass diff 0 (0 ppm), Formula C16H11"
+219.08034	688993	"Theoretical m/z 219.08099, Mass diff 0 (0 ppm), Formula C16H11O"
+220.08832	759191
+221.09137	139322
+238.0988	312402	"Theoretical m/z 238.098832, Mass diff 0 (0.13 ppm), SMILES O=C(OCC=1C=CC=CC1)C=CC=2C=CC=CC2, Annotation [C16H14O2]+, Rule of HR False"
+

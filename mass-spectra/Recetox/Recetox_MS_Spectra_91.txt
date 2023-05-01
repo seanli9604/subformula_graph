@@ -1,0 +1,47 @@
+NAME: Tefluthrin
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1811.8
+PRECURSORMZ: 383.08758
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C17H14ClF7O2
+INCHIKEY: ZFHGXWPMULPQSE-WTKPLQERSA-N
+INCHI: 
+SMILES: CC1=C(F)C(F)=C(COC(=O)C2C(\C=C(/Cl)C(F)(F)F)C2(C)C)C(F)=C1F
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 26
+77.03858	280385	"Theoretical m/z 77.039125, Mass diff 0 (0 ppm), Formula C6H5"
+87.02296	197477	"Theoretical m/z 87.023475, Mass diff 0 (0 ppm), Formula C7H3"
+91.05427	592372	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+93.06993	244846	"Theoretical m/z 93.070425, Mass diff 0 (0 ppm), Formula C7H9"
+101.01977	347618	"Theoretical m/z 101.020282, Mass diff 0 (0 ppm), Formula C5H3F2"
+107.02916	336119	"Theoretical m/z 107.029703, Mass diff 0 (0 ppm), Formula C7H4F"
+125.01978	262532	"Theoretical m/z 125.020282, Mass diff 0 (0 ppm), Formula C7H3F2"
+127.03537	2989056	"Theoretical m/z 127.035932, Mass diff 0 (0 ppm), Formula C7H5F2"
+128.03871	229570
+137.01971	578238	"Theoretical m/z 137.020282, Mass diff 0 (0 ppm), Formula C8H3F2"
+141.051	5219536	"Theoretical m/z 141.051582, Mass diff 0 (0 ppm), Formula C8H7F2"
+142.05437	476028
+143.01024	233560	"Theoretical m/z 143.010309, Mass diff 0 (0.48 ppm), SMILES *C=1C(F)=C(*)C(=C(F)C1F)C, Annotation [C7H5F3-3H]+, Rule of HR True"
+145.02589	279103	"Theoretical m/z 145.025959, Mass diff 0 (0.47 ppm), SMILES *C=1C(F)=C(*)C(=C(F)C1F)C, Annotation [C7H5F3-H]+, Rule of HR True"
+157.02585	445659	"Theoretical m/z 157.025964, Mass diff 0 (0.73 ppm), SMILES *C=1C(F)=C(C(F)=C(F)C1C)C*, Annotation [C8H7F3-3H]+, Rule of HR True"
+159.04155	316456	"Theoretical m/z 159.041614, Mass diff 0 (0.4 ppm), SMILES *C=1C(F)=C(C(F)=C(F)C1C)C*, Annotation [C8H7F3-H]+, Rule of HR True"
+161.05719	1793897	"Theoretical m/z 161.05726, Mass diff 0 (0.43 ppm), SMILES *C(=CC1C(*)C1(C)C)C(F)(F)F, Annotation [C8H11F3-3H]+, Rule of HR True"
+163.01645	236417	"Theoretical m/z 163.016544, Mass diff 0 (0.58 ppm), SMILES *C=1C(F)=C(F)C(=C(F)C1F)C, Annotation [C7H4F4-H]+, Rule of HR True"
+165.02583	359237
+176.02438	404157
+177.03206	17756670	"Theoretical m/z 177.032184, Mass diff 0 (0.7 ppm), SMILES *CC1=C(F)C(F)=C(C(F)=C1F)C, Annotation [C8H6F4-H]+, Rule of HR True"
+178.03536	1512541
+191.01131	191421	"Theoretical m/z 191.012003, Mass diff 0 (0 ppm), Formula C8H3F4O"
+197.03381	3212558	"Theoretical m/z 197.033939, Mass diff 0 (0.65 ppm), SMILES *C1C(C=C(Cl)C(F)(F)F)C1(C)C, Annotation [C8H10ClF3-H]+, Rule of HR True"
+198.03716	273577
+199.03088	1031588	"Theoretical m/z 199.031453, Mass diff 0 (0 ppm), Formula C13H8Cl"
+

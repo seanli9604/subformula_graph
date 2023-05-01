@@ -1,0 +1,47 @@
+NAME: Benzophenone
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1659.6
+PRECURSORMZ: 182.07237
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C13H10O
+INCHIKEY: RWCCWEUUXYIKHB-UHFFFAOYSA-N
+INCHI: 
+SMILES: O=C(C1=CC=CC=C1)C1=CC=CC=C1
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 26
+71.08551	165195	"Theoretical m/z 71.086075, Mass diff 0 (0 ppm), Formula C5H11"
+74.01508	132161	"Theoretical m/z 74.01565, Mass diff 0 (0 ppm), Formula C6H2"
+75.02605	76412
+76.03075	189457	"Theoretical m/z 76.030753, Mass diff 0 (0.03 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-2H]+, Rule of HR False"
+77.03854	2828210	"Theoretical m/z 77.038578, Mass diff 0 (0.49 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-H]+, Rule of HR True"
+78.04192	184114
+95.04913	741441	"Theoretical m/z 95.049141, Mass diff 0 (-0.12 ppm), SMILES C\C(=C\C=C)C#[O+], Annotation [C6H7O]+, Rule of HR True"
+96.05244	51218
+105.03347	4731062	"Theoretical m/z 105.033489, Mass diff 0 (0.18 ppm), SMILES *C(=O)C=1C=CC=CC1, Annotation [C7H6O-H]+, Rule of HR True"
+106.0368	312683
+107.08548	75829	"Theoretical m/z 107.086075, Mass diff 0 (0 ppm), Formula C8H11"
+126.04633	59227
+143.08542	59751	"Theoretical m/z 143.086075, Mass diff 0 (0 ppm), Formula C11H11"
+151.02399	81842
+152.0619	408670
+153.06973	269014	"Theoretical m/z 153.070425, Mass diff 0 (0 ppm), Formula C12H9"
+154.07753	163239
+165.06975	87444	"Theoretical m/z 165.070425, Mass diff 0 (0 ppm), Formula C13H9"
+169.06461	89550	"Theoretical m/z 169.06534, Mass diff 0 (0 ppm), Formula C12H9O"
+171.11665	96789
+181.06461	2793537	"Theoretical m/z 181.06534, Mass diff 0 (0 ppm), Formula C13H9O"
+182.07237	3111469	"Theoretical m/z 182.072617, Mass diff 0 (1.36 ppm), SMILES O=C(C=1C=CC=CC1)C=2C=CC=CC2, Annotation [C13H10O]+, Rule of HR False"
+183.07573	414740
+223.06351	69496
+227.02197	62326
+299.06146	94478
+

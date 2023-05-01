@@ -1,0 +1,135 @@
+NAME: 2-Ethylhexyl 2,3,4,5-Tetrabromobenzoate
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2834.1
+PRECURSORMZ: 537.39209
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C15H18Br4O2
+INCHIKEY: HVDXCGSGEQKWGB-UHFFFAOYSA-N
+INCHI: 
+SMILES: CCCCC(CC)COC(=O)C1=CC(=C(C(=C1Br)Br)Br)Br
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 114
+70.07741	318443	"Theoretical m/z 70.077704, Mass diff 0 (4.19 ppm), SMILES CCCCC, Annotation [C5H12-2H]+, Rule of HR False"
+71.08522	70004	"Theoretical m/z 71.085529, Mass diff 0 (4.35 ppm), SMILES CCCCC, Annotation [C5H12-H]+, Rule of HR True"
+72.08856	8585
+74.01481	9923	"Theoretical m/z 74.01565, Mass diff 0 (0 ppm), Formula C6H2"
+77.03825	9696	"Theoretical m/z 77.039125, Mass diff 0 (0 ppm), Formula C6H5"
+78.91748	15626	"Theoretical m/z 78.918337, Mass diff 0 (0 ppm), Formula Br"
+79.0539	622032	"Theoretical m/z 79.054775, Mass diff 0 (0 ppm), Formula C6H7"
+79.92529	19025
+80.06171	114970	"Theoretical m/z 80.0626, Mass diff 0 (0 ppm), Formula C6H8"
+80.91544	29513
+81.06956	103410	"Theoretical m/z 81.069878, Mass diff 0 (-3.92 ppm), SMILES C1C[C+]2CCC12, Annotation [C6H9]+, Rule of HR True"
+81.92325	22520
+82.07737	95876	"Theoretical m/z 82.077702, Mass diff 0 (4.04 ppm), SMILES CCCCCC, Annotation [C6H14-4H]+, Rule of HR False"
+83.08517	404262	"Theoretical m/z 83.085527, Mass diff 0 (4.29 ppm), SMILES CCCCCC, Annotation [C6H14-3H]+, Rule of HR True"
+84.09302	349909	"Theoretical m/z 84.093352, Mass diff 0 (3.95 ppm), SMILES CCCCCC, Annotation [C6H14-2H]+, Rule of HR False"
+88.03035	10634	"Theoretical m/z 88.0313, Mass diff 0 (0 ppm), Formula C7H4"
+94.04093	34047	"Theoretical m/z 94.041313, Mass diff 0 (-4.07 ppm), SMILES [OH+]C1=CC=CC=C1, Annotation [C6H6O-H]+, Rule of HR True"
+95.08513	40198	"Theoretical m/z 95.086075, Mass diff 0 (0 ppm), Formula C7H11"
+97.10078	19932	"Theoretical m/z 97.101175, Mass diff 0 (4.06 ppm), SMILES CCCC(C)CC, Annotation [C7H16-3H]+, Rule of HR True"
+98.03587	10253
+98.07221	11273
+98.10859	39750	"Theoretical m/z 98.109, Mass diff 0 (4.18 ppm), SMILES CCCCCCC, Annotation [C7H16-2H]+, Rule of HR False"
+99.11639	24621	"Theoretical m/z 99.116825, Mass diff 0 (4.39 ppm), SMILES CCCCCCC, Annotation [C7H16-H]+, Rule of HR True"
+109.10075	13614	"Theoretical m/z 109.101725, Mass diff 0 (0 ppm), Formula C8H13"
+111.11632	16623	"Theoretical m/z 111.117375, Mass diff 0.001 (0 ppm), Formula C8H15"
+112.12416	93634
+117.06934	27784	"Theoretical m/z 117.070425, Mass diff 0.001 (0 ppm), Formula C9H9"
+119.08499	9567	"Theoretical m/z 119.086075, Mass diff 0.001 (0 ppm), Formula C9H11"
+120.09282	14681
+121.10061	9299	"Theoretical m/z 121.101725, Mass diff 0.001 (0 ppm), Formula C9H13"
+123.07994	12083	"Theoretical m/z 123.08099, Mass diff 0.001 (0 ppm), Formula C8H11O"
+123.11626	28305	"Theoretical m/z 123.117375, Mass diff 0.001 (0 ppm), Formula C9H15"
+131.08493	9667	"Theoretical m/z 131.086075, Mass diff 0.001 (0 ppm), Formula C10H11"
+133.10052	10519	"Theoretical m/z 133.101725, Mass diff 0.001 (0 ppm), Formula C10H13"
+136.08768	8524	"Theoretical m/z 136.088815, Mass diff 0.001 (0 ppm), Formula C9H12O"
+147.0797	16825	"Theoretical m/z 147.08099, Mass diff 0.001 (0 ppm), Formula C10H11O"
+147.1161	18154	"Theoretical m/z 147.117375, Mass diff 0.001 (0 ppm), Formula C11H15"
+149.02261	25592
+149.13176	10617	"Theoretical m/z 149.133026, Mass diff 0.001 (0 ppm), Formula C11H17"
+151.9248	148907
+152.06136	17678
+152.93262	11982	"Theoretical m/z 152.933987, Mass diff 0.001 (0 ppm), Formula C6H2Br"
+153.92281	135337
+154.9303	18810
+177.1628	8978
+178.07689	10552	"Theoretical m/z 178.07825, Mass diff 0.001 (0 ppm), Formula C14H10"
+183.07953	10063	"Theoretical m/z 183.08099, Mass diff 0.001 (0 ppm), Formula C13H11O"
+184.08731	14498
+191	21788
+192.97928	22249
+193.10013	13121	"Theoretical m/z 193.101725, Mass diff 0.001 (0 ppm), Formula C15H13"
+207.03139	69176
+208.03058	9831
+210.98993	9028
+212.96906	10278
+230.00003	8804
+230.84293	12510	"Theoretical m/z 230.844499, Mass diff 0.001 (0 ppm), Formula C6HBr2"
+231.85121	33718
+232.84076	119033
+233.84889	75524
+248.98724	13362	"Theoretical m/z 248.991502, Mass diff 0.004 (0 ppm), Formula C12H10BrO"
+251.85895	12644
+253.85689	13088
+255.01239	8287
+258.83777	46963	"Theoretical m/z 258.839414, Mass diff 0.001 (0 ppm), Formula C7HBr2O"
+260.83569	35950
+269.97647	12596
+281.04987	44776	"Theoretical m/z 281.054102, Mass diff 0.004 (0 ppm), Formula C14H18BrO"
+282.04983	18123
+283.02911	17395	"Theoretical m/z 283.033367, Mass diff 0.004 (0 ppm), Formula C13H16BrO2"
+302.76538	9315	"Theoretical m/z 302.765576, Mass diff 0 (0 ppm), Formula C4H2Br3O"
+309.76092	80498
+311.75873	182834
+313.75674	199078
+315.75461	74533
+325.98535	8172
+327.03381	15957
+329.7688	44441
+331.76685	37206
+338.76321	93015
+340.76111	261045
+341.01605	8734
+341.7645	25672
+342.01584	10904
+342.75906	240892	"Theoretical m/z 342.760491, Mass diff 0.001 (0 ppm), Formula C6H2Br3O2"
+342.99542	9652
+343.76218	10447
+344.75745	99622	"Theoretical m/z 344.755011, Mass diff -0.003 (0 ppm), Formula C9Br3"
+356.75671	30397	"Theoretical m/z 356.755011, Mass diff -0.002 (0 ppm), Formula C10Br3"
+357.76453	17526
+358.75382	30856
+359.76218	19585
+360.76947	22540
+361.76004	8228
+372.76981	19345
+390.67718	24827
+392.67456	34240	"Theoretical m/z 392.676088, Mass diff 0.001 (0 ppm), Formula C5HBr4O"
+394.67258	19961
+416.67267	116727
+418.67078	425164
+419.67401	21342
+420.6695	806666	"Theoretical m/z 420.671003, Mass diff 0.001 (0 ppm), Formula C6HBr4O2"
+421.67218	54466
+422.66666	457597
+423.66971	18313
+424.66452	87355
+433.67691	23723
+435.6741	118283
+436.68195	60570
+437.67206	198489
+438.67978	88196
+439.67007	113985
+440.6774	55242
+441.66779	16629
+

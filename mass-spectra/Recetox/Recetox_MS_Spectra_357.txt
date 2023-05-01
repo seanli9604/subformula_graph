@@ -1,0 +1,66 @@
+NAME: Flusilazole
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2204.8
+PRECURSORMZ: 315.10016
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C16H15F2N3Si
+INCHIKEY: FQKUGOMFVDPBIZ-UHFFFAOYSA-N
+INCHI: 
+SMILES: C[Si](CN1C=NC=N1)(C2=CC=C(C=C2)F)C3=CC=C(C=C3)F
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 45
+77.03853	1158263	"Theoretical m/z 77.038578, Mass diff 0 (0.62 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+89.03851	1002387	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+90.04638	1401026	"Theoretical m/z 90.04695, Mass diff 0 (0 ppm), Formula C7H6"
+91.05421	2696071	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+109.04477	1402735	"Theoretical m/z 109.045353, Mass diff 0 (0 ppm), Formula C7H6F"
+123.00593	3160621	"Theoretical m/z 123.00663, Mass diff 0 (0 ppm), Formula C6H4FSi"
+128.02734	4238068	"Theoretical m/z 128.024872, Mass diff -0.003 (0 ppm), Formula C7H2N3"
+137.0152	1247905	"Theoretical m/z 137.013973, Mass diff -0.002 (0 ppm), Formula C9HN2"
+139.03723	2350812	"Theoretical m/z 139.037387, Mass diff 0 (1.13 ppm), SMILES FC1=CC=C(C=C1)[Si]C, Annotation [C7H9FSi-H]+, Rule of HR True"
+150.04636	3303032	"Theoretical m/z 150.04675, Mass diff 0 (0 ppm), Formula C7H5FN3"
+151.05409	5032029	"Theoretical m/z 151.054775, Mass diff 0 (0 ppm), Formula C12H7"
+152.06194	7226126	"Theoretical m/z 152.0624, Mass diff 0 (0 ppm), Formula C7H7FN3"
+153.06526	1725950
+155.03217	9296184	"Theoretical m/z 155.031702, Mass diff -0.001 (0 ppm), Formula C10H7Si"
+156.03548	1105660
+162.97023	1153571
+163.05412	1246724	"Theoretical m/z 163.054775, Mass diff 0 (0 ppm), Formula C13H7"
+164.06184	1611630	"Theoretical m/z 164.0624, Mass diff 0 (0 ppm), Formula C8H7FN3"
+165.06984	8603766	"Theoretical m/z 165.070425, Mass diff 0 (0 ppm), Formula C13H9"
+166.01794	1684393
+166.07315	1905300
+170.05244	1542567	"Theoretical m/z 170.052979, Mass diff 0 (0 ppm), Formula C7H6F2N3"
+173.98109	2400518	"Theoretical m/z 173.980001, Mass diff -0.002 (0 ppm), Formula C11NSi"
+179.06032	1275898	"Theoretical m/z 179.060923, Mass diff 0 (0 ppm), Formula C12H7N2"
+183.06041	3027305	"Theoretical m/z 183.061003, Mass diff 0 (0 ppm), Formula C13H8F"
+200.98676	5601740
+204.03232	2087135
+206.05437	28165986	"Theoretical m/z 206.054432, Mass diff 0 (0.3 ppm), SMILES FC1=CC=C(C=C1)[Si]CN2N=CN=C2, Annotation [C9H10FN3Si-H]+, Rule of HR True"
+207.05768	3096774
+208.05113	1056410
+213.05292	1041774	"Theoretical m/z 213.053033, Mass diff 0 (0.53 ppm), SMILES FC1=CC=C(C=C1)[Si](C2=CC=CC=C2)C, Annotation [C13H13FSi-3H]+, Rule of HR True"
+217.02795	2767585	"Theoretical m/z 217.027963, Mass diff 0 (0.06 ppm), SMILES FC1=CC=C(C=C1)[Si]C2=CC=C(F)C=C2, Annotation [C12H10F2Si-3H]+, Rule of HR True"
+219.04353	3066975	"Theoretical m/z 219.043613, Mass diff 0 (0.38 ppm), SMILES FC1=CC=C(C=C1)[Si]C2=CC=C(F)C=C2, Annotation [C12H10F2Si-H]+, Rule of HR True"
+220.07004	9147304	"Theoretical m/z 220.070072, Mass diff 0 (0.14 ppm), SMILES FC1=CC=C(C=C1)[Si](C)CN2N=CN=C2, Annotation [C10H12FN3Si-H]+, Rule of HR True"
+224.06485	5380861	"Theoretical m/z 224.064399, Mass diff -0.001 (0 ppm), Formula C12H10N3Si"
+231.04362	2915397	"Theoretical m/z 231.043603, Mass diff 0 (0.07 ppm), SMILES FC1=CC=C(C=C1)[Si](C2=CC=C(F)C=C2)C, Annotation [C13H12F2Si-3H]+, Rule of HR True"
+233.05914	100236896	"Theoretical m/z 233.059253, Mass diff 0 (0.49 ppm), SMILES FC1=CC=C(C=C1)[Si](C2=CC=C(F)C=C2)C, Annotation [C13H12F2Si-H]+, Rule of HR True"
+234.0631	12091318
+235.05589	4936842
+246.06699	4185578
+251.06963	9236836	"Theoretical m/z 251.06923, Mass diff -0.001 (0 ppm), Formula C16H12FSi"
+252.07362	1165000
+300.07614	4710592	"Theoretical m/z 300.076313, Mass diff 0 (0.58 ppm), SMILES FC1=CC=C(C=C1)[Si](C2=CC=C(F)C=C2)CN3N=CN=C3, Annotation [C15H13F2N3Si-H]+, Rule of HR True"
+314.09168	8096411	"Theoretical m/z 314.092505, Mass diff 0 (0 ppm), Formula C16H14F2N3Si"
+315.10016	3931112
+

@@ -1,0 +1,46 @@
+NAME: 4-Methylbenzophenone
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1786.6
+PRECURSORMZ: 196.08788
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C14H12O
+INCHIKEY: WXPWZZHELZEVPO-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1=CC=C(C=C1)C(=O)C1=CC=CC=C1
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 25
+77.03848	637746	"Theoretical m/z 77.038578, Mass diff 0 (1.27 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-H]+, Rule of HR True"
+78.04632	54478	"Theoretical m/z 78.046403, Mass diff 0 (1.06 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6]+, Rule of HR False"
+89.03848	232060	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+90.04635	66496	"Theoretical m/z 90.046401, Mass diff 0 (0.56 ppm), SMILES *C1=CC=C(C=C1)C, Annotation [C7H8-2H]+, Rule of HR False"
+91.05412	1468510	"Theoretical m/z 91.054226, Mass diff 0 (1.16 ppm), SMILES *C1=CC=C(C=C1)C, Annotation [C7H8-H]+, Rule of HR True"
+92.05748	110229
+95.04905	221257	"Theoretical m/z 95.049141, Mass diff 0 (-0.96 ppm), SMILES C\C(=C\C=C)C#[O+], Annotation [C6H7O]+, Rule of HR True"
+96.03372	103955
+105.03339	718545	"Theoretical m/z 105.033489, Mass diff 0 (0.94 ppm), SMILES *C(=O)C=1C=CC=CC1, Annotation [C7H6O-H]+, Rule of HR True"
+106.03673	59021
+109.06468	343607	"Theoretical m/z 109.06534, Mass diff 0 (0 ppm), Formula C7H9O"
+115.05405	64684	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+119.04899	4571288	"Theoretical m/z 119.049144, Mass diff 0 (1.3 ppm), SMILES *C(=O)C1=CC=C(C=C1)C, Annotation [C8H8O-H]+, Rule of HR True"
+120.05232	387036
+152.06174	206442
+153.06952	120073	"Theoretical m/z 153.070425, Mass diff 0 (0 ppm), Formula C12H9"
+164.06168	48032
+165.0696	296941	"Theoretical m/z 165.070425, Mass diff 0 (0 ppm), Formula C13H9"
+166.07284	70774
+167.08519	101912	"Theoretical m/z 167.086075, Mass diff 0 (0 ppm), Formula C13H11"
+181.06439	2728311	"Theoretical m/z 181.064792, Mass diff 0 (2.22 ppm), SMILES *C1=CC=C(C=C1)C(=O)C=2C=CC=CC2, Annotation [C13H10O-H]+, Rule of HR True"
+182.06775	379502
+195.08009	108307	"Theoretical m/z 195.08099, Mass diff 0 (0 ppm), Formula C14H11O"
+196.08788	789222	"Theoretical m/z 196.088273, Mass diff 0 (2 ppm), SMILES O=C(C=1C=CC=CC1)C2=CC=C(C=C2)C, Annotation [C14H12O]+, Rule of HR False"
+197.09122	114580
+

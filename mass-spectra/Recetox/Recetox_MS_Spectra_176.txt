@@ -1,0 +1,31 @@
+NAME: Tri-n-butyl-phosphate
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1628.1
+PRECURSORMZ: 212.11266
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C12H27O4P
+INCHIKEY: STCOOQWBFONSKY-UHFFFAOYSA-N
+INCHI: 
+SMILES: CCCCOP(=O)(OCCCC)OCCCC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 10
+80.97363	807819	"Theoretical m/z 80.973606, Mass diff 0 (0.3 ppm), SMILES O=P(O)O, Annotation [H3O3P-H]+, Rule of HR True"
+81.98147	910267
+98.98419	68846616	"Theoretical m/z 98.98472, Mass diff 0 (0 ppm), Formula H4O4P"
+110.9842	1149639	"Theoretical m/z 110.98472, Mass diff 0 (0 ppm), Formula CH4O4P"
+112.99982	1453962	"Theoretical m/z 113.00037, Mass diff 0 (0 ppm), Formula CH6O4P"
+124.99983	4417554	"Theoretical m/z 125.00037, Mass diff 0 (0 ppm), Formula C2H6O4P"
+127.01547	1074788	"Theoretical m/z 127.01602, Mass diff 0 (0 ppm), Formula C2H8O4P"
+137.03622	2686649	"Theoretical m/z 137.036213, Mass diff 0 (0.05 ppm), SMILES O=P(O)OCCCC, Annotation [C4H11O3P-H]+, Rule of HR True"
+155.04668	4314190	"Theoretical m/z 155.046781, Mass diff 0 (0.65 ppm), SMILES O=P(O)(O)OCCCC, Annotation [C4H11O4P+H]+, Rule of HR True"
+211.10933	1505282	"Theoretical m/z 211.109373, Mass diff 0 (0.2 ppm), SMILES O=P(O)(OCCCC)OCCCC, Annotation [C8H19O4P+H]+, Rule of HR True"
+

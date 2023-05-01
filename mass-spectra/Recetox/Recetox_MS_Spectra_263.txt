@@ -1,0 +1,37 @@
+NAME: Pyraclostrobin
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2964.2
+PRECURSORMZ: 387.39896
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C19H18ClN3O4
+INCHIKEY: HZRSNVGNWUDEFX-UHFFFAOYSA-N
+INCHI: 
+SMILES: COC(=O)N(C1=CC=CC=C1COC2=NN(C=C2)C3=CC=C(C=C3)Cl)OC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 16
+75.02292	1941698	"Theoretical m/z 75.022928, Mass diff 0 (0.1 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-3H]+, Rule of HR True"
+77.03854	4987618	"Theoretical m/z 77.038578, Mass diff 0 (0.49 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+78.04639	2294508	"Theoretical m/z 78.046403, Mass diff 0 (0.16 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6]+, Rule of HR False"
+104.04942	8688712	"Theoretical m/z 104.049478, Mass diff 0 (0.56 ppm), SMILES C1=CC=C(C=C1)NC, Annotation [C7H9N-3H]+, Rule of HR True"
+110.99956	2409817	"Theoretical m/z 110.999607, Mass diff 0 (0.42 ppm), SMILES C1=CC=C(C=C1)Cl, Annotation [C6H5Cl-H]+, Rule of HR True"
+132.0443	121840808	"Theoretical m/z 132.044397, Mass diff 0 (0.73 ppm), SMILES N=COCC=1C=CC=CC=1, Annotation [C8H9NO-3H]+, Rule of HR True"
+133.04761	10962368
+139.00566	4016833	"Theoretical m/z 139.005746, Mass diff 0 (0.62 ppm), SMILES NNC1=CC=C(C=C1)Cl, Annotation [C6H7ClN2-3H]+, Rule of HR True"
+141.0027	1310691
+164.0705	29023748	"Theoretical m/z 164.070606, Mass diff 0 (0.65 ppm), SMILES O=C(OC)NC1=CC=CC=C1C, Annotation [C9H11NO2-H]+, Rule of HR True"
+165.07382	2566806
+179.01315	2678780	"Theoretical m/z 179.013241, Mass diff 0 (0.51 ppm), SMILES OCC=CNC1=CC=C(C=C1)Cl, Annotation [C9H10ClNO-4H]+, Rule of HR False"
+193.01633	1553056	"Theoretical m/z 193.016315, Mass diff 0 (0.08 ppm), SMILES OC1=NN(C=C1)C2=CC=C(C=C2)Cl, Annotation [C9H7ClN2O-H]+, Rule of HR True"
+194.02409	2333844	"Theoretical m/z 194.02414, Mass diff 0 (0.26 ppm), SMILES OC1=NN(C=C1)C2=CC=C(C=C2)Cl, Annotation [C9H7ClN2O]+, Rule of HR False"
+283.06314	3281990	"Theoretical m/z 283.063282, Mass diff 0 (0.5 ppm), SMILES N2=C(OCC=1C=CC=CC=1)C=CN2C3=CC=C(C=C3)Cl, Annotation [C16H13ClN2O-H]+, Rule of HR True"
+325.06119	2427058	"Theoretical m/z 325.061255, Mass diff 0 (0.2 ppm), SMILES O=CNC1=CC=CC=C1COC2=NN(C=C2)C3=CC=C(C=C3)Cl, Annotation [C17H14ClN3O2-2H]+, Rule of HR False"
+

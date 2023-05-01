@@ -1,0 +1,59 @@
+NAME: Propargite_isomer2
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2429.5
+PRECURSORMZ: 350.15442
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C19H26O4S
+INCHIKEY: ZYHMJXZULPZUED-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC(C)(C)C1=CC=C(C=C1)OC2CCCCC2OS(=O)OCC#C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 38
+77.03853	2115179	"Theoretical m/z 77.038578, Mass diff 0 (0.62 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+79.05419	3994768	"Theoretical m/z 79.054228, Mass diff 0 (0.48 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6+H]+, Rule of HR True"
+81.06985	6227834	"Theoretical m/z 81.069878, Mass diff 0 (-0.34 ppm), SMILES C1C[C+]2CCC12, Annotation [C6H9]+, Rule of HR True"
+91.05419	6013970	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+93.06987	1057452	"Theoretical m/z 93.070425, Mass diff 0 (0 ppm), Formula C7H9"
+95.0855	1864389	"Theoretical m/z 95.086075, Mass diff 0 (0 ppm), Formula C7H11"
+103.05418	1119646	"Theoretical m/z 103.054775, Mass diff 0 (0 ppm), Formula C8H7"
+105.06986	1985952	"Theoretical m/z 105.070425, Mass diff 0 (0 ppm), Formula C8H9"
+107.04907	10050027	"Theoretical m/z 107.049141, Mass diff 0 (-0.66 ppm), SMILES [OH+]=CC1=CC=CC=C1, Annotation [C7H7O]+, Rule of HR True"
+108.05241	764883
+115.05418	1909072	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+117.06979	2358374	"Theoretical m/z 117.069879, Mass diff 0 (0.76 ppm), SMILES C1=CC=C(C=C1)C(C)C, Annotation [C9H12-3H]+, Rule of HR True"
+118.07758	720160
+119.0491	1078581	"Theoretical m/z 119.049142, Mass diff 0 (0.35 ppm), SMILES O(C1=CC=CC=C1)CC, Annotation [C8H10O-3H]+, Rule of HR True"
+121.06471	2276538	"Theoretical m/z 121.064792, Mass diff 0 (0.68 ppm), SMILES O(C1=CC=CC=C1)CC, Annotation [C8H10O-H]+, Rule of HR True"
+129.06978	566676	"Theoretical m/z 129.070425, Mass diff 0 (0 ppm), Formula C10H9"
+130.07765	536101
+131.04909	1976360	"Theoretical m/z 131.049148, Mass diff 0 (0.44 ppm), SMILES O(C1=CC=CC=C1)CCC, Annotation [C9H12O-5H]+, Rule of HR True"
+132.05692	1361339	"Theoretical m/z 132.056973, Mass diff 0 (0.4 ppm), SMILES OC1=CC=C(C=C1)C(C)C, Annotation [C9H12O-4H]+, Rule of HR False"
+133.06476	1040249	"Theoretical m/z 133.064798, Mass diff 0 (0.28 ppm), SMILES OC1=CC=C(C=C1)C(C)C, Annotation [C9H12O-3H]+, Rule of HR True"
+134.07257	551605	"Theoretical m/z 134.072623, Mass diff 0 (0.39 ppm), SMILES OC1=CC=C(C=C1)C(C)C, Annotation [C9H12O-2H]+, Rule of HR False"
+135.08029	49002268	"Theoretical m/z 135.080448, Mass diff 0 (1.17 ppm), SMILES OC1=CC=C(C=C1)C(C)C, Annotation [C9H12O-H]+, Rule of HR True"
+136.08368	4826461
+145.06471	975978	"Theoretical m/z 145.064788, Mass diff 0 (0.54 ppm), SMILES O(C1=CC=C(C=C1)C(C)C)C, Annotation [C10H14O-5H]+, Rule of HR True"
+149.09605	725338	"Theoretical m/z 149.096088, Mass diff 0 (0.26 ppm), SMILES OC1=CC=C(C=C1)C(C)(C)C, Annotation [C10H14O-H]+, Rule of HR True"
+150.10384	3189173
+161.09599	995348	"Theoretical m/z 161.096094, Mass diff 0 (0.64 ppm), SMILES O(C1=CC=C(C=C1)C(C)(C)C)C, Annotation [C11H16O-3H]+, Rule of HR True"
+173.09607	11496317	"Theoretical m/z 173.096099, Mass diff 0 (0.17 ppm), SMILES O(C1=CC=C(C=C1)C(C)(C)C)CC, Annotation [C12H18O-5H]+, Rule of HR True"
+174.09935	1474590
+175.11166	1373165	"Theoretical m/z 175.111749, Mass diff 0 (0.51 ppm), SMILES O(C1=CC=C(C=C1)C(C)(C)C)CC, Annotation [C12H18O-3H]+, Rule of HR True"
+201.05788	763159	"Theoretical m/z 201.057987, Mass diff 0 (0.53 ppm), SMILES O=S(OCC#C)OC1CCCCC1, Annotation [C9H14O3S-H]+, Rule of HR True"
+231.13791	3823428	"Theoretical m/z 231.137954, Mass diff 0 (0.19 ppm), SMILES OC(COC1=CC=C(C=C1)C(C)(C)C)CCC, Annotation [C15H24O2-5H]+, Rule of HR True"
+232.14111	578154
+233.15352	914475	"Theoretical m/z 233.153604, Mass diff 0 (0.36 ppm), SMILES OC(COC1=CC=C(C=C1)C(C)(C)C)CCC, Annotation [C15H24O2-3H]+, Rule of HR True"
+246.16122	689443
+248.17691	2648982
+335.13077	1641920	"Theoretical m/z 335.131158, Mass diff 0 (1.16 ppm), SMILES O=S(OCC#C)OC(COC1=CC=C(C=C1)C(C)(C)C)CCC, Annotation [C18H26O4S-3H]+, Rule of HR True"
+350.15442	3318070	"Theoretical m/z 350.154633, Mass diff 0 (0.61 ppm), SMILES O=S(OCC#C)OC2CCCCC2(OC1=CC=C(C=C1)C(C)(C)C), Annotation [C19H26O4S]+, Rule of HR False"
+

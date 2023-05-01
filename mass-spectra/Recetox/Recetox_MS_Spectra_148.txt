@@ -1,0 +1,42 @@
+NAME: Camphor
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1156.5
+PRECURSORMZ: 152.11949
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C10H16O
+INCHIKEY: DSSYKIVIOFKYAU-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1(C2CCC1(C(=O)C2)C)C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 21
+77.0386	1926555	"Theoretical m/z 77.039125, Mass diff 0 (0 ppm), Formula C6H5"
+78.03387	466982
+79.04166	5408103
+80.06204	3028398	"Theoretical m/z 80.062052, Mass diff 0 (0.15 ppm), SMILES *C(*)C(C)(C)C(*)(*)C, Annotation [C6H14-6H]+, Rule of HR False"
+81.06988	15651765	"Theoretical m/z 81.069878, Mass diff 0 (0.03 ppm), SMILES C1C[C+]2CCC12, Annotation [C6H9]+, Rule of HR True"
+82.07323	1458468
+83.08552	1332498	"Theoretical m/z 83.085527, Mass diff 0 (0.08 ppm), SMILES *C(*)C(C)(C)C(*)(*)C, Annotation [C6H14-3H]+, Rule of HR True"
+91.05426	3096632	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+92.05765	318273
+93.06992	9042472	"Theoretical m/z 93.069877, Mass diff 0 (0.46 ppm), SMILES *C1CCC(*)(*)C1(C)C, Annotation [C7H14-5H]+, Rule of HR True"
+94.07329	766166
+95.08552	31268822	"Theoretical m/z 95.085527, Mass diff 0 (0.07 ppm), SMILES *C1CCC(*)(*)C1(C)C, Annotation [C7H14-3H]+, Rule of HR True"
+96.08886	2387253
+105.06988	323777	"Theoretical m/z 105.070425, Mass diff 0 (0 ppm), Formula C8H9"
+107.08556	350302	"Theoretical m/z 107.085525, Mass diff 0 (0.33 ppm), SMILES *CC1CCC(*)(*)C1(C)C, Annotation [C8H16-5H]+, Rule of HR True"
+108.09333	14261850	"Theoretical m/z 108.09335, Mass diff 0 (0.18 ppm), SMILES *C1CCC(*)(C)C1(C)C, Annotation [C8H16-4H]+, Rule of HR False"
+109.10117	6993814	"Theoretical m/z 109.101175, Mass diff 0 (0.04 ppm), SMILES *C1CCC(*)(C)C1(C)C, Annotation [C8H16-3H]+, Rule of HR True"
+110.10899	1180636
+137.09607	1382040	"Theoretical m/z 137.096088, Mass diff 0 (0.13 ppm), SMILES *C12C(=O)CC(CC1)C2(C)C, Annotation [C9H14O-H]+, Rule of HR True"
+152.11949	2934847	"Theoretical m/z 152.119569, Mass diff 0 (0.52 ppm), SMILES O=C1CC2CCC1(C)C2(C)C, Annotation [C10H16O]+, Rule of HR False"
+153.12285	328381
+

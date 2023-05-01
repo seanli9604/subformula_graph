@@ -1,0 +1,62 @@
+NAME: Bromuconazole_isomer2
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2527.8
+PRECURSORMZ: 341.98236
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C13H12BrCl2N3O
+INCHIKEY: HJJVPARKXDDIQD-UHFFFAOYSA-N
+INCHI: 
+SMILES: C1C(COC1(CN2C=NC=N2)C3=C(C=C(C=C3)Cl)Cl)Br
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 41
+69.06983	605682	"Theoretical m/z 69.070425, Mass diff 0 (0 ppm), Formula C5H9"
+71.08549	1346054	"Theoretical m/z 71.086075, Mass diff 0 (0 ppm), Formula C5H11"
+75.02288	290427	"Theoretical m/z 75.023475, Mass diff 0 (0 ppm), Formula C6H3"
+83.08547	788379	"Theoretical m/z 83.086075, Mass diff 0 (0 ppm), Formula C6H11"
+84.09333	322227	"Theoretical m/z 84.0939, Mass diff 0 (0 ppm), Formula C6H12"
+85.10114	1722083	"Theoretical m/z 85.101725, Mass diff 0 (0 ppm), Formula C6H13"
+99.11679	490676
+108.98392	897735	"Theoretical m/z 108.983957, Mass diff 0 (0.34 ppm), SMILES C=1C=CC(=CC=1)Cl, Annotation [C6H5Cl-3H]+, Rule of HR True"
+109.99174	422856
+110.98095	306564
+113.13239	301271
+122.99952	414988	"Theoretical m/z 123.000153, Mass diff 0 (0 ppm), Formula C7H4Cl"
+137.98657	405753	"Theoretical m/z 137.98773, Mass diff 0.001 (0 ppm), Formula C4H6Cl2N"
+144.05688	297677	"Theoretical m/z 144.058002, Mass diff 0.001 (0 ppm), Formula C7H11ClN"
+144.96043	471322	"Theoretical m/z 144.960636, Mass diff 0 (1.42 ppm), SMILES C=1C=C(C=C(C=1)Cl)Cl, Annotation [C6H4Cl2-H]+, Rule of HR True"
+149.01524	674252	"Theoretical m/z 149.015803, Mass diff 0 (0 ppm), Formula C9H6Cl"
+150.02307	293291
+158.97623	687270	"Theoretical m/z 158.976276, Mass diff 0 (0.29 ppm), SMILES C1=CC(=C(C=C1Cl)Cl)C, Annotation [C7H6Cl2-H]+, Rule of HR True"
+160.97318	479657	"Theoretical m/z 160.971435, Mass diff -0.002 (0 ppm), Formula C4H6BrN2"
+161.96741	1734091	"Theoretical m/z 161.967474, Mass diff 0 (0.4 ppm), SMILES O1CC(CC1C)Br, Annotation [C5H9BrO-2H]+, Rule of HR False"
+163.03079	396900	"Theoretical m/z 163.031453, Mass diff 0 (0 ppm), Formula C10H8Cl"
+163.9653	1709017	"Theoretical m/z 163.966994, Mass diff 0.001 (0 ppm), Formula C5H4Cl2NO"
+172.95555	28704702	"Theoretical m/z 172.955545, Mass diff 0 (0.03 ppm), SMILES OCC=1C=CC(=CC=1Cl)Cl, Annotation [C7H6Cl2O-3H]+, Rule of HR True"
+173.95886	2142433
+174.95252	18239028	"Theoretical m/z 174.9507, Mass diff -0.002 (0 ppm), Formula C4H4BrN2O"
+175.95581	1365118
+176.94954	2910022
+178.01787	808486	"Theoretical m/z 178.01903, Mass diff 0.001 (0 ppm), Formula C7H10Cl2N"
+212.98679	645968	"Theoretical m/z 212.986841, Mass diff 0 (0.24 ppm), SMILES O1CCCC1C=2C=CC(=CC=2Cl)Cl, Annotation [C10H10Cl2O-3H]+, Rule of HR True"
+213.99327	3064700
+215.00243	1406187	"Theoretical m/z 215.002491, Mass diff 0 (0.28 ppm), SMILES O1CCCC1C=2C=CC(=CC=2Cl)Cl, Annotation [C10H10Cl2O-H]+, Rule of HR True"
+215.9904	2006515
+216.9996	551687
+217.98741	364509
+292.91284	7100940	"Theoretical m/z 292.913013, Mass diff 0 (0.59 ppm), SMILES O1CC(CC1C=2C=CC(=CC=2Cl)Cl)Br, Annotation [C10H9BrCl2O-H]+, Rule of HR True"
+293.91602	763374
+294.91058	10981566
+295.91385	1209662
+296.90781	5000881
+297.91119	542667
+298.90488	682780
+

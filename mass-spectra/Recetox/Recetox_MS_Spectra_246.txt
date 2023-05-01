@@ -1,0 +1,38 @@
+NAME: Mevinphos
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1445.5
+PRECURSORMZ: 224.04439
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C7H13O6P
+INCHIKEY: GEPDYQSQVLXLEU-AATRIKPKSA-N
+INCHI: 
+SMILES: CC(=CC(=O)OC)OP(=O)(OC)OC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 17
+67.05421	425784	"Theoretical m/z 67.054775, Mass diff 0 (0 ppm), Formula C5H7"
+69.06985	5211616	"Theoretical m/z 69.070425, Mass diff 0 (0 ppm), Formula C5H9"
+78.99433	1848670	"Theoretical m/z 78.994342, Mass diff 0 (0.16 ppm), SMILES O=POC, Annotation [CH5O2P-H]+, Rule of HR True"
+94.98918	502611	"Theoretical m/z 94.989261, Mass diff 0 (0.86 ppm), SMILES O=P(O)OC, Annotation [CH5O3P-H]+, Rule of HR True"
+95.997	397606
+109.00491	6053124	"Theoretical m/z 109.004909, Mass diff 0 (0.01 ppm), SMILES O=P(OC)OC, Annotation [C2H7O3P-H]+, Rule of HR True"
+112.12463	454927
+112.99974	1103614	"Theoretical m/z 112.999823, Mass diff 0 (0.73 ppm), SMILES O=P(O)(O)OC, Annotation [CH5O4P+H]+, Rule of HR True"
+125.13246	518233
+127.01539	38439912	"Theoretical m/z 127.01547, Mass diff 0 (0.63 ppm), SMILES O=P(O)(OC)OC, Annotation [C2H7O4P+H]+, Rule of HR True"
+128.01869	868659
+134.03618	627079
+141.03101	673716	"Theoretical m/z 141.031126, Mass diff 0 (0.82 ppm), SMILES O=P(OC)(OC)OC, Annotation [C3H9O4P+H]+, Rule of HR True"
+164.02321	10716375
+165.02669	732514
+192.0181	6424899
+193.02605	1207044	"Theoretical m/z 193.026035, Mass diff 0 (0.08 ppm), SMILES O=C(OC)C=C(OP(=O)OC)C, Annotation [C6H11O5P-H]+, Rule of HR True"
+

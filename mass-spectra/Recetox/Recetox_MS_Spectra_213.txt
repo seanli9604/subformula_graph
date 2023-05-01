@@ -1,0 +1,76 @@
+NAME: Malathion
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1964.4
+PRECURSORMZ: 173.07994
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C10H19O6PS2
+INCHIKEY: JXSJBGJIGXNWCI-UHFFFAOYSA-N
+INCHI: 
+SMILES: CCOC(=O)CC(C(=O)OCC)SP(=S)(OC)OC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 55
+71.01244	949595	"Theoretical m/z 71.012758, Mass diff 0 (4.47 ppm), SMILES O=C(OC)C, Annotation [C3H6O2-3H]+, Rule of HR True"
+73.06446	406093	"Theoretical m/z 73.06534, Mass diff 0 (0 ppm), Formula C4H9O"
+74.98961	405308	"Theoretical m/z 74.990461, Mass diff 0 (0 ppm), Formula C2H3OS"
+78.99399	6488444	"Theoretical m/z 78.994891, Mass diff 0 (0 ppm), Formula CH4O2P"
+86.98956	1106725	"Theoretical m/z 86.990461, Mass diff 0 (0 ppm), Formula C3H3OS"
+92.05718	395036
+93.0096	28995046	"Theoretical m/z 93.00999, Mass diff 0 (4.2 ppm), SMILES O(C)POC, Annotation [C2H7O2P-H]+, Rule of HR True"
+94.01288	550290
+94.04093	6000624	"Theoretical m/z 94.041313, Mass diff 0 (-4.07 ppm), SMILES [OH+]C1=CC=CC=C1, Annotation [C6H6O-H]+, Rule of HR True"
+94.91693	1833645	"Theoretical m/z 94.917904, Mass diff 0 (0 ppm), Formula PS2"
+94.97112	1435225	"Theoretical m/z 94.9715, Mass diff 0 (4 ppm), SMILES O(C)P=S, Annotation [CH5OPS-H]+, Rule of HR True"
+95.0443	600275
+95.92477	780220
+99.00722	25639558	"Theoretical m/z 99.008219, Mass diff 0 (0 ppm), Formula C4H3O3"
+100.01504	2334958
+101.02289	1047346	"Theoretical m/z 101.023869, Mass diff 0 (0 ppm), Formula C4H5O3"
+102.98436	2181288	"Theoretical m/z 102.985375, Mass diff 0 (0 ppm), Formula C3H3O2S"
+103.05376	1915079	"Theoretical m/z 103.054775, Mass diff 0 (0 ppm), Formula C8H7"
+104.02543	467681	"Theoretical m/z 104.026215, Mass diff 0 (0 ppm), Formula C7H4O"
+110.96589	1406476	"Theoretical m/z 110.966411, Mass diff 0.001 (4.7 ppm), SMILES OP(OC)=S, Annotation [CH5O2PS-H]+, Rule of HR True"
+114.98428	583805	"Theoretical m/z 114.985375, Mass diff 0.001 (0 ppm), Formula C4H3O2S"
+117.01768	3906636	"Theoretical m/z 117.018784, Mass diff 0.001 (0 ppm), Formula C4H5O4"
+117.05673	3769636	"Theoretical m/z 117.055169, Mass diff -0.002 (0 ppm), Formula C5H9O3"
+117.06929	3204899	"Theoretical m/z 117.070425, Mass diff 0.001 (0 ppm), Formula C9H9"
+118.96133	423162	"Theoretical m/z 118.962532, Mass diff 0.001 (0 ppm), Formula C3H3OS2"
+124.98147	38912148	"Theoretical m/z 124.982067, Mass diff 0.001 (4.77 ppm), SMILES O(C)P(OC)=S, Annotation [C2H7O2PS-H]+, Rule of HR True"
+125.9848	1129226
+126.03055	1468480	"Theoretical m/z 126.03114, Mass diff 0.001 (4.68 ppm), SMILES O=CCCC(=O)OCC, Annotation [C6H10O3-4H]+, Rule of HR False"
+126.97726	3107877
+127.03834	23198548	"Theoretical m/z 127.038965, Mass diff 0.001 (4.92 ppm), SMILES O=CCCC(=O)OCC, Annotation [C6H10O3-3H]+, Rule of HR True"
+128.04173	1850689
+128.9763	612134	"Theoretical m/z 128.977527, Mass diff 0.001 (0 ppm), Formula CH6O3PS"
+131.01552	3167887	"Theoretical m/z 131.016122, Mass diff 0.001 (4.6 ppm), SMILES O=C(OCC)C(C)S, Annotation [C5H10O2S-3H]+, Rule of HR True"
+131.07236	808521
+132.02318	511895
+141.98419	482571
+142.99194	11322129	"Theoretical m/z 142.993177, Mass diff 0.001 (0 ppm), Formula C2H8O3PS"
+144.98772	452780
+145.04881	4884207	"Theoretical m/z 145.049533, Mass diff 0.001 (4.99 ppm), SMILES O=C(O)CCC(=O)OCC, Annotation [C6H10O4-H]+, Rule of HR True"
+146.99254	2046919	"Theoretical m/z 146.992963, Mass diff 0 (0 ppm), Formula C4H3O6"
+156.95335	2536368	"Theoretical m/z 156.954136, Mass diff 0.001 (5 ppm), SMILES O(C)P(OC)(=S)S, Annotation [C2H7O2PS2-H]+, Rule of HR True"
+157.96117	6822792
+158.96906	929890	"Theoretical m/z 158.969786, Mass diff 0.001 (4.56 ppm), SMILES O(C)P(OC)(=S)S, Annotation [C2H7O2PS2+H]+, Rule of HR True"
+159.01022	1551232
+159.95696	622680
+171.02333	419486	"Theoretical m/z 171.024477, Mass diff 0.001 (0 ppm), Formula C4H12O3PS"
+173.07994	13637609
+174.08334	1086811
+182.96886	598669
+198.9637	433466
+210.96362	1968790
+226.9584	716342
+237.95076	480123
+254.95329	1116105
+255.99764	1089340
+

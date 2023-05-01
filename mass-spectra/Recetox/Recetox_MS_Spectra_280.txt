@@ -1,0 +1,58 @@
+NAME: Fenoxycarb
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2487.8
+PRECURSORMZ: 301.13068
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C17H19NO4
+INCHIKEY: HJUFTIJOISQSKQ-UHFFFAOYSA-N
+INCHI: 
+SMILES: CCOC(=O)NCCOC1=CC=C(C=C1)OC2=CC=CC=C2
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 37
+70.07765	1755769	"Theoretical m/z 70.07825, Mass diff 0 (0 ppm), Formula C5H10"
+71.08546	2658790	"Theoretical m/z 71.086075, Mass diff 0 (0 ppm), Formula C5H11"
+77.0385	11057577	"Theoretical m/z 77.038578, Mass diff 0 (1.01 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+78.04635	2880218	"Theoretical m/z 78.046403, Mass diff 0 (0.68 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6]+, Rule of HR False"
+81.06983	2285834	"Theoretical m/z 81.069878, Mass diff 0 (-0.59 ppm), SMILES C1C[C+]2CCC12, Annotation [C6H9]+, Rule of HR True"
+85.10111	4362068	"Theoretical m/z 85.101725, Mass diff 0 (0 ppm), Formula C6H13"
+88.03922	140718160	"Theoretical m/z 88.039307, Mass diff 0 (-0.98 ppm), SMILES COC(=O)[CH+]N, Annotation [C3H6NO2]+, Rule of HR True"
+89.04253	5962824
+91.05415	2521729	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+99.11673	1655671	"Theoretical m/z 99.117375, Mass diff 0 (0 ppm), Formula C7H15"
+109.02835	2983939	"Theoretical m/z 109.028408, Mass diff 0 (0.53 ppm), SMILES OC1=CC=C(O)C=C1, Annotation [C6H6O2-H]+, Rule of HR True"
+109.10112	3025634	"Theoretical m/z 109.101725, Mass diff 0 (0 ppm), Formula C8H13"
+115.05416	17305354	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+116.07047	96486752	"Theoretical m/z 116.070606, Mass diff 0 (1.17 ppm), SMILES O=C(OCC)NCC, Annotation [C5H11NO2-H]+, Rule of HR True"
+117.07376	5564396
+120.04428	1720574	"Theoretical m/z 120.044939, Mass diff 0 (0 ppm), Formula C7H6NO"
+128.0619	7984453	"Theoretical m/z 128.0626, Mass diff 0 (0 ppm), Formula C10H8"
+129.0697	15824509	"Theoretical m/z 129.070425, Mass diff 0 (0 ppm), Formula C10H9"
+130.07754	3271760
+131.04901	2605722	"Theoretical m/z 131.04969, Mass diff 0 (0 ppm), Formula C9H7O"
+135.0677	2265663	"Theoretical m/z 135.067862, Mass diff 0 (1.2 ppm), SMILES O(C1=CC=CC=C1)CCN, Annotation [C8H11NO-2H]+, Rule of HR False"
+135.11665	2562884	"Theoretical m/z 135.116821, Mass diff 0 (-1.27 ppm), SMILES C\C=C\C=C1\CCC[C+]1C, Annotation [C10H15]+, Rule of HR True"
+139.05406	2998958	"Theoretical m/z 139.054775, Mass diff 0 (0 ppm), Formula C11H7"
+141.06969	7595348	"Theoretical m/z 141.070425, Mass diff 0 (0 ppm), Formula C11H9"
+155.06024	1440407
+157.06468	10109855	"Theoretical m/z 157.06534, Mass diff 0 (0 ppm), Formula C11H9O"
+158.07246	13152171
+159.07585	1627390
+168.05681	2081407
+183.08035	2168386	"Theoretical m/z 183.08099, Mass diff 0 (0 ppm), Formula C13H11O"
+185.05962	8958082	"Theoretical m/z 185.059711, Mass diff 0 (0.49 ppm), SMILES OC2=CC=C(OC1=CC=CC=C1)C=C2, Annotation [C12H10O2-H]+, Rule of HR True"
+186.06737	60494452
+187.07071	8388385
+212.08304	2846278	"Theoretical m/z 212.083182, Mass diff 0 (0.67 ppm), SMILES O(C1=CC=CC=C1)C2=CC=C(OCC)C=C2, Annotation [C14H14O2-2H]+, Rule of HR False"
+255.08872	22233370
+256.0975	8685383	"Theoretical m/z 256.09682, Mass diff 0.001 (2.65 ppm), SMILES O=CNCCOC2=CC=C(OC1=CC=CC=C1)C=C2, Annotation [C15H15NO3-H]+, Rule of HR True"
+257.10028	1498082
+

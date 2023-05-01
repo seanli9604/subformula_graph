@@ -1,0 +1,40 @@
+NAME: Fenazaquin
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2559
+PRECURSORMZ: 291.1489
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C20H22N2O
+INCHIKEY: DMYHGDXADUDKCQ-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC(C)(C)C1=CC=C(C=C1)CCOC2=NC=NC3=CC=CC=C32
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 19
+91.05424	29796178	"Theoretical m/z 91.054226, Mass diff 0 (0.16 ppm), SMILES C1=CC=C(C=C1)C, Annotation [C7H8-H]+, Rule of HR True"
+103.05421	9813370	"Theoretical m/z 103.054223, Mass diff 0 (0.13 ppm), SMILES C1=CC=C(C=C1)CC, Annotation [C8H10-3H]+, Rule of HR True"
+105.0699	7373558	"Theoretical m/z 105.069873, Mass diff 0 (0.25 ppm), SMILES C1=CC=C(C=C1)CC, Annotation [C8H10-H]+, Rule of HR True"
+115.05423	23424368	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+116.06204	7080676	"Theoretical m/z 116.062054, Mass diff 0 (0.12 ppm), SMILES C1=CC=C(C=C1)C(C)C, Annotation [C9H12-4H]+, Rule of HR False"
+117.06983	99141440	"Theoretical m/z 117.069879, Mass diff 0 (0.42 ppm), SMILES C1=CC=C(C=C1)C(C)C, Annotation [C9H12-3H]+, Rule of HR True"
+118.07314	13615038
+128.062	12843312	"Theoretical m/z 128.0626, Mass diff 0 (0 ppm), Formula C10H8"
+129.06981	18470830	"Theoretical m/z 129.070425, Mass diff 0 (0 ppm), Formula C10H9"
+130.07768	15199084
+131.08551	15254890	"Theoretical m/z 131.085519, Mass diff 0 (0.07 ppm), SMILES C=1C=C(C=CC=1C)C(C)C, Annotation [C10H14-3H]+, Rule of HR True"
+143.08568	5312696	"Theoretical m/z 143.086075, Mass diff 0 (0 ppm), Formula C11H11"
+145.03969	5917826	"Theoretical m/z 145.039646, Mass diff 0 (0.3 ppm), SMILES OC1=NC=NC2=CC=CC=C12, Annotation [C8H6N2O-H]+, Rule of HR True"
+145.10114	482621536	"Theoretical m/z 145.101175, Mass diff 0 (0.24 ppm), SMILES C=1C=C(C=CC=1CC)C(C)C, Annotation [C11H16-3H]+, Rule of HR True"
+146.0473	8142022
+146.10434	65757656
+147.05507	7510350	"Theoretical m/z 147.055296, Mass diff 0 (1.54 ppm), SMILES OC1=NC=NC2=CC=CC=C12, Annotation [C8H6N2O+H]+, Rule of HR True"
+160.1246	89941752	"Theoretical m/z 160.124655, Mass diff 0 (0.34 ppm), SMILES C=1C=C(C=CC=1CC)C(C)(C)C, Annotation [C12H18-2H]+, Rule of HR False"
+161.12795	11839840
+

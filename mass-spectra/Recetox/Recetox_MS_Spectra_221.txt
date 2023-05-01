@@ -1,0 +1,87 @@
+NAME: Trifluralin
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1666.2
+PRECURSORMZ: 335.10678
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C13H16F3N3O4
+INCHIKEY: ZSDSQXJSNMTJDA-UHFFFAOYSA-N
+INCHI: 
+SMILES: CCCN(CCC)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-]
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 66
+75.00368	1780017	"Theoretical m/z 75.004631, Mass diff 0 (0 ppm), Formula C3HF2"
+105.04421	6215666	"Theoretical m/z 105.045273, Mass diff 0.001 (0 ppm), Formula C6H5N2"
+123.00341	2359458	"Theoretical m/z 123.004631, Mass diff 0.001 (0 ppm), Formula C7HF2"
+125.01909	4473420	"Theoretical m/z 125.020282, Mass diff 0.001 (0 ppm), Formula C7H3F2"
+126.01432	4692460	"Theoretical m/z 126.015531, Mass diff 0.001 (0 ppm), Formula C6H2F2N"
+127.02215	3222447	"Theoretical m/z 127.020675, Mass diff -0.002 (0 ppm), Formula C3H5F2O3"
+130.06448	2068956	"Theoretical m/z 130.065674, Mass diff 0.001 (0 ppm), Formula C9H8N"
+131.00964	3356674	"Theoretical m/z 131.01086, Mass diff 0.001 (0 ppm), Formula C6H2F3"
+132.01743	1741102	"Theoretical m/z 132.019787, Mass diff 0.002 (0 ppm), Formula C6H2N3O"
+133.02527	2678984	"Theoretical m/z 133.02651, Mass diff 0.001 (0 ppm), Formula C6H4F3"
+139.022	1886608	"Theoretical m/z 139.020675, Mass diff -0.002 (0 ppm), Formula C4H5F2O3"
+140.02988	4014939	"Theoretical m/z 140.031181, Mass diff 0.001 (0 ppm), Formula C7H4F2N"
+141.02513	3384482	"Theoretical m/z 141.02643, Mass diff 0.001 (0 ppm), Formula C6H3F2N2"
+143.00952	3469162	"Theoretical m/z 143.009282, Mass diff -0.001 (0 ppm), Formula C4H3N2O4"
+144.01735	1725840	"Theoretical m/z 144.019787, Mass diff 0.002 (0 ppm), Formula C7H2N3O"
+145.02516	9547131	"Theoretical m/z 145.024932, Mass diff -0.001 (0 ppm), Formula C4H5N2O4"
+146.02037	2666751	"Theoretical m/z 146.020181, Mass diff -0.001 (0 ppm), Formula C3H4N3O4"
+147.02826	1679734	"Theoretical m/z 147.026904, Mass diff -0.002 (0 ppm), Formula C3H6F3O3"
+148.03595	3371607	"Theoretical m/z 148.035831, Mass diff -0.001 (0 ppm), Formula C3H6N3O4"
+151.03455	2908135	"Theoretical m/z 151.035932, Mass diff 0.001 (0 ppm), Formula C9H5F2"
+152.02977	2116175	"Theoretical m/z 152.031181, Mass diff 0.001 (0 ppm), Formula C8H4F2N"
+153.02501	3169999	"Theoretical m/z 153.02643, Mass diff 0.001 (0 ppm), Formula C7H3F2N2"
+158.02034	3426164	"Theoretical m/z 158.020181, Mass diff -0.001 (0 ppm), Formula C4H4N3O4"
+159.02812	8259080	"Theoretical m/z 159.026904, Mass diff -0.002 (0 ppm), Formula C4H6F3O3"
+160.03592	10879528	"Theoretical m/z 160.035831, Mass diff -0.001 (0 ppm), Formula C4H6N3O4"
+161.01994	2172381	"Theoretical m/z 161.020282, Mass diff 0 (0 ppm), Formula C10H3F2"
+166.04541	2846394	"Theoretical m/z 166.046831, Mass diff 0.001 (0 ppm), Formula C9H6F2N"
+171.01547	3008391	"Theoretical m/z 171.017008, Mass diff 0.001 (0 ppm), Formula C7H2F3N2"
+172.03584	5619329	"Theoretical m/z 172.035831, Mass diff -0.001 (0 ppm), Formula C5H6N3O4"
+173.03111	4059855	"Theoretical m/z 173.032658, Mass diff 0.001 (0 ppm), Formula C7H4F3N2"
+174.01517	4747622
+176.03076	3080337
+185.04366	2044199	"Theoretical m/z 185.042554, Mass diff -0.002 (0 ppm), Formula C6H8F3O3"
+186.03886	6180188	"Theoretical m/z 186.037803, Mass diff -0.002 (0 ppm), Formula C5H7F3NO3"
+187.04658	5412949	"Theoretical m/z 187.048308, Mass diff 0.001 (0 ppm), Formula C8H6F3N2"
+188.01807	7202588	"Theoretical m/z 188.017067, Mass diff -0.002 (0 ppm), Formula C4H5F3NO4"
+189.02586	4436715	"Theoretical m/z 189.02643, Mass diff 0 (0 ppm), Formula C10H3F2N2"
+190.03371	2237859	"Theoretical m/z 190.032717, Mass diff -0.002 (0 ppm), Formula C4H7F3NO4"
+198.05138	4117907	"Theoretical m/z 198.051481, Mass diff 0 (0 ppm), Formula C7H8N3O4"
+199.04669	2982827	"Theoretical m/z 199.048308, Mass diff 0.001 (0 ppm), Formula C9H6F3N2"
+200.05443	2274018	"Theoretical m/z 200.053453, Mass diff -0.002 (0 ppm), Formula C6H9F3NO3"
+201.02588	3991150	"Theoretical m/z 201.02643, Mass diff 0 (0 ppm), Formula C11H3F2N2"
+202.03369	9292457	"Theoretical m/z 202.032717, Mass diff -0.002 (0 ppm), Formula C5H7F3NO4"
+206.02864	21375318
+207.03156	1787997
+212.06694	3459441	"Theoretical m/z 212.067131, Mass diff 0 (0 ppm), Formula C8H10N3O4"
+213.06227	3684944	"Theoretical m/z 213.063958, Mass diff 0.001 (0 ppm), Formula C10H8F3N2"
+214.07011	4170270	"Theoretical m/z 214.074228, Mass diff 0.004 (0 ppm), Formula C12H10N2O2"
+217.00812	2440330
+218.02858	2231219	"Theoretical m/z 218.026489, Mass diff -0.003 (0 ppm), Formula C8H6F2NO4"
+219.02385	1693582
+231.02382	1947284	"Theoretical m/z 231.025761, Mass diff 0.001 (0 ppm), Formula C13H5F2O2"
+232.03162	6977626	"Theoretical m/z 232.032243, Mass diff 0 (0 ppm), Formula C11H4F2N3O"
+234.01092	2792672
+248.02641	25813254
+249.02985	2369235
+260.06287	5448901	"Theoretical m/z 260.064142, Mass diff 0.001 (4.89 ppm), SMILES O=[N+]C1=CC(=CC([N+]=O)=C1(NCCC))C(F)(F)F, Annotation [C10H12F3N3O2-3H]+, Rule of HR True"
+264.02127	164187104
+265.02472	14900002
+274.06201	4129358
+290.07318	19677018
+291.07675	2160552
+306.06787	107158808
+307.07153	12362124
+316.10846	6390679
+318.10409	7754021
+

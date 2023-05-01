@@ -1,0 +1,78 @@
+NAME: Metobromuron
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1843.9
+PRECURSORMZ: 257.99976
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C9H11BrN2O2
+INCHIKEY: WLFDQEVORAMCIM-UHFFFAOYSA-N
+INCHI: 
+SMILES: CN(C(=O)NC1=CC=C(C=C1)Br)OC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 57
+69.06982	79294	"Theoretical m/z 69.070425, Mass diff 0 (0 ppm), Formula C5H9"
+70.07767	70474	"Theoretical m/z 70.07825, Mass diff 0 (0 ppm), Formula C5H10"
+71.08547	67846	"Theoretical m/z 71.086075, Mass diff 0 (0 ppm), Formula C5H11"
+74.01505	127625	"Theoretical m/z 74.015103, Mass diff 0 (0.71 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-4H]+, Rule of HR False"
+75.0229	397199	"Theoretical m/z 75.022928, Mass diff 0 (0.37 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-3H]+, Rule of HR True"
+76.03071	324682	"Theoretical m/z 76.030753, Mass diff 0 (0.56 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-2H]+, Rule of HR False"
+81.06985	62803	"Theoretical m/z 81.069878, Mass diff 0 (-0.34 ppm), SMILES C1C[C+]2CCC12, Annotation [C6H9]+, Rule of HR True"
+85.10112	274891
+88.01812	73402	"Theoretical m/z 88.018724, Mass diff 0 (0 ppm), Formula C6H2N"
+90.03382	1740254	"Theoretical m/z 90.033822, Mass diff 0 (0.03 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N-3H]+, Rule of HR True"
+91.04161	4286118	"Theoretical m/z 91.041647, Mass diff 0 (0.41 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N-2H]+, Rule of HR False"
+92.06197	486809	"Theoretical m/z 92.0626, Mass diff 0 (0 ppm), Formula C7H8"
+93.06985	63603	"Theoretical m/z 93.070425, Mass diff 0 (0 ppm), Formula C7H9"
+94.04128	80858	"Theoretical m/z 94.041313, Mass diff 0 (-0.35 ppm), SMILES [OH+]C1=CC=CC=C1, Annotation [C6H6O-H]+, Rule of HR True"
+97.10116	81181
+104.06197	69168	"Theoretical m/z 104.0626, Mass diff 0 (0 ppm), Formula C8H8"
+115.05416	62621	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+116.93333	568369	"Theoretical m/z 116.933987, Mass diff 0 (0 ppm), Formula C3H2Br"
+118.07758	54780
+118.9313	597649
+119.03649	267143
+120.05692	55021	"Theoretical m/z 120.057515, Mass diff 0 (0 ppm), Formula C8H8O"
+141.01453	54888
+142.949	1321804	"Theoretical m/z 142.949637, Mass diff 0 (0 ppm), Formula C5H4Br"
+143.95229	77689
+144.94694	1331059
+145.95021	64352
+147.08029	182728
+148.06293	247504
+154.94893	381076	"Theoretical m/z 154.949085, Mass diff 0 (1 ppm), SMILES C1=CC=C(C=C1)Br, Annotation [C6H5Br-H]+, Rule of HR True"
+156.94696	395936
+168.95209	1030472
+169.95987	5315114	"Theoretical m/z 169.95998, Mass diff 0 (0.65 ppm), SMILES NC1=CC=C(C=C1)Br, Annotation [C6H6BrN-H]+, Rule of HR True"
+170.95	1887914
+171.95775	5272697
+172.96568	835619
+182.95514	466989	"Theoretical m/z 182.955785, Mass diff 0 (0 ppm), Formula C6H4BrN2"
+183.97568	89754	"Theoretical m/z 183.976186, Mass diff 0 (0 ppm), Formula C7H7BrN"
+184.95309	459024
+185.09596	63130
+185.97357	66438
+196.94698	2048888
+197.04176	67757
+197.95477	626413	"Theoretical m/z 197.954898, Mass diff 0 (0.65 ppm), SMILES O=CNC1=CC=C(C=C1)Br, Annotation [C7H6BrNO-H]+, Rule of HR True"
+198.0499	67957
+198.94492	2122378
+199.95273	628910
+205.12239	53628
+208.97055	62176	"Theoretical m/z 208.971435, Mass diff 0 (0 ppm), Formula C8H6BrN2"
+209.97867	148722
+210.96874	63647
+211.97658	172472
+227.97127	58107
+257.99976	4258880	"Theoretical m/z 257.999848, Mass diff 0 (0.34 ppm), SMILES O=C(NC1=CC=C(C=C1)Br)N(OC)C, Annotation [C9H11BrN2O2]+, Rule of HR False"
+259.00308	400973
+259.99765	4177426
+261.00098	416740
+

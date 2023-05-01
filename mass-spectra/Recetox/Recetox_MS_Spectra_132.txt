@@ -1,0 +1,36 @@
+NAME: trans-Cinnamaldehyde
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1278.1
+PRECURSORMZ: 132.05693
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C9H8O
+INCHIKEY: KJPRLNWUNMBNBZ-QPJJXVBHSA-N
+INCHI: 
+SMILES: C1=CC=C(C=C1)/C=C/C=O
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 15
+74.0151	319192	"Theoretical m/z 74.01565, Mass diff 0 (0 ppm), Formula C6H2"
+75.02296	219907	"Theoretical m/z 75.023475, Mass diff 0 (0 ppm), Formula C6H3"
+76.03078	283761	"Theoretical m/z 76.030753, Mass diff 0 (0.36 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-2H]+, Rule of HR False"
+77.03859	2096450	"Theoretical m/z 77.038578, Mass diff 0 (0.16 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-H]+, Rule of HR True"
+78.04644	2417510	"Theoretical m/z 78.046403, Mass diff 0 (0.48 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6]+, Rule of HR False"
+79.04165	213600
+91.05426	155223	"Theoretical m/z 91.054226, Mass diff 0 (0.38 ppm), SMILES *C(*)C=1C=CC=CC1, Annotation [C7H8-H]+, Rule of HR True"
+95.04917	421914	"Theoretical m/z 95.049141, Mass diff 0 (0.31 ppm), SMILES C\C(=C\C=C)C#[O+], Annotation [C6H7O]+, Rule of HR True"
+102.04643	856871	"Theoretical m/z 102.046401, Mass diff 0 (0.29 ppm), SMILES *C=CC=1C=CC=CC1, Annotation [C8H8-2H]+, Rule of HR False"
+103.05422	4374351	"Theoretical m/z 103.054226, Mass diff 0 (0.05 ppm), SMILES *C=CC=1C=CC=CC1, Annotation [C8H8-H]+, Rule of HR True"
+104.06204	1183120	"Theoretical m/z 104.062051, Mass diff 0 (0.1 ppm), SMILES *C=CC=1C=CC=CC1, Annotation [C8H8]+, Rule of HR False"
+105.04474	177273
+131.04913	13156546	"Theoretical m/z 131.04969, Mass diff 0 (0 ppm), Formula C9H7O"
+132.05693	2373192	"Theoretical m/z 132.056962, Mass diff 0 (0.24 ppm), SMILES O=CC=CC=1C=CC=CC1, Annotation [C9H8O]+, Rule of HR False"
+133.06024	161844
+

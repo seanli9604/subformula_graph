@@ -1,0 +1,37 @@
+NAME: Octrizole
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2571.9
+PRECURSORMZ: 323.19928
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C20H25N3O
+INCHIKEY: IYAZLDLPUNDVAG-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC(C)(C)CC(C)(C)C1=CC(N2N=C3C=CC=CC3=N2)=C(O)C=C1
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 16
+77.03863	18782	"Theoretical m/z 77.038578, Mass diff 0 (0.68 ppm), SMILES *C1=CC=C(*)C(*)=C1, Annotation [C6H6-H]+, Rule of HR True"
+78.04645	13174	"Theoretical m/z 78.046403, Mass diff 0 (0.61 ppm), SMILES *C1=CC=C(*)C(*)=C1, Annotation [C6H6]+, Rule of HR False"
+79.05428	27769	"Theoretical m/z 79.054228, Mass diff 0 (0.66 ppm), SMILES *C1=CC=C(*)C(*)=C1, Annotation [C6H6+H]+, Rule of HR True"
+91.05432	29870	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+103.05431	19258	"Theoretical m/z 103.054775, Mass diff 0 (0 ppm), Formula C8H7"
+105.06998	75131	"Theoretical m/z 105.070425, Mass diff 0 (0 ppm), Formula C8H9"
+120.05559	15106	"Theoretical m/z 120.055624, Mass diff 0 (0.28 ppm), SMILES *N1N=C2C=CC=CC2=N1, Annotation [C6H5N3+H]+, Rule of HR True"
+133.06488	100462	"Theoretical m/z 133.064798, Mass diff 0 (0.62 ppm), SMILES *C1=CC(=CC=C1O)C(*)(C)C, Annotation [C9H12O-3H]+, Rule of HR True"
+167.05553	15075
+180.08072	11571	"Theoretical m/z 180.08078, Mass diff 0 (-0.33 ppm), SMILES C1=CC2=CC3=C(C=CC=C3)[NH+]=C2C=C1, Annotation [C13H10N]+, Rule of HR True"
+224.08188	61851	"Theoretical m/z 224.082387, Mass diff 0 (0 ppm), Formula C13H10N3O"
+251.10548	17409
+252.11322	1118239	"Theoretical m/z 252.113132, Mass diff 0 (0.35 ppm), SMILES *C(C1=CC=C(O)C(=C1)N2N=C3C=CC=CC3=N2)(C)C, Annotation [C15H15N3O-H]+, Rule of HR True"
+253.11659	186776
+254.11986	13450
+323.19928	15937	"Theoretical m/z 323.199219, Mass diff 0 (0.19 ppm), SMILES OC1=CC=C(C=C1N2N=C3C=CC=CC3=N2)C(C)(C)CC(C)(C)C, Annotation [C20H25N3O]+, Rule of HR False"
+

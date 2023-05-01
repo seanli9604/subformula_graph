@@ -1,0 +1,34 @@
+NAME: 1-Methylnaphthalene
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1286.6
+PRECURSORMZ: 142.077
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C11H10
+INCHIKEY: QPUYECUOLPXSFR-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1=CC=CC2=CC=CC=C12
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 13
+86.01471	55460	"Theoretical m/z 86.01565, Mass diff 0 (0 ppm), Formula C7H2"
+87.02255	63785	"Theoretical m/z 87.023475, Mass diff 0 (0 ppm), Formula C7H3"
+89.03819	213185	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+113.03806	89308	"Theoretical m/z 113.039125, Mass diff 0.001 (0 ppm), Formula C9H5"
+114.04584	45599
+115.0537	1789221	"Theoretical m/z 115.054775, Mass diff 0.001 (0 ppm), Formula C9H7"
+116.05703	186878
+126.04581	66149
+139.05357	538932	"Theoretical m/z 139.054775, Mass diff 0.001 (0 ppm), Formula C11H7"
+140.05687	96504
+141.0692	4443998	"Theoretical m/z 141.070425, Mass diff 0.001 (0 ppm), Formula C11H9"
+142.077	3888514	"Theoretical m/z 142.077698, Mass diff 0.001 (4.92 ppm), SMILES C1=CC=C2C(=C1)C=CC=C2C, Annotation [C11H10]+, Rule of HR False"
+143.08035	433165
+

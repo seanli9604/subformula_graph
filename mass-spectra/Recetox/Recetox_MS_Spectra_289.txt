@@ -1,0 +1,37 @@
+NAME: Carbetamide
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2009.3
+PRECURSORMZ: 236.11537
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C12H16N2O3
+INCHIKEY: AMRQXHFXNZFDCH-UHFFFAOYSA-N
+INCHI: 
+SMILES: CCNC(=O)C(C)OC(=O)NC1=CC=CC=C1
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 16
+71.08548	423636	"Theoretical m/z 71.086075, Mass diff 0 (0 ppm), Formula C5H11"
+72.08071	1121773	"Theoretical m/z 72.080772, Mass diff 0 (-0.87 ppm), SMILES CC=[N+](C)C, Annotation [C4H10N]+, Rule of HR True"
+74.05999	560945	"Theoretical m/z 74.060041, Mass diff 0 (0.69 ppm), SMILES O=CNCC, Annotation [C3H7NO+H]+, Rule of HR True"
+77.03852	1769406	"Theoretical m/z 77.038578, Mass diff 0 (0.75 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+91.04163	4604632	"Theoretical m/z 91.041647, Mass diff 0 (0.19 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N-2H]+, Rule of HR False"
+92.04943	3792902	"Theoretical m/z 92.049472, Mass diff 0 (0.46 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N-H]+, Rule of HR True"
+93.05727	10387390	"Theoretical m/z 93.057297, Mass diff 0 (0.3 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N]+, Rule of HR False"
+94.06061	726705
+106.06508	1088479	"Theoretical m/z 106.065674, Mass diff 0 (0 ppm), Formula C7H8N"
+119.03651	36487572
+120.04418	8339605	"Theoretical m/z 120.044391, Mass diff 0 (1.76 ppm), SMILES O=CNC1=CC=CC=C1, Annotation [C7H7NO-H]+, Rule of HR True"
+121.06462	1033952	"Theoretical m/z 121.06534, Mass diff 0 (0 ppm), Formula C8H9O"
+132.04425	397155	"Theoretical m/z 132.044939, Mass diff 0 (0 ppm), Formula C8H6NO"
+137.04704	503329
+165.07835	913559	"Theoretical m/z 165.078431, Mass diff 0 (0.49 ppm), SMILES O=C(OCC)NC1=CC=CC=C1, Annotation [C9H11NO2]+, Rule of HR False"
+236.11537	863660	"Theoretical m/z 236.11554, Mass diff 0 (0.72 ppm), SMILES O=C(OC(C(=O)NCC)C)NC1=CC=CC=C1, Annotation [C12H16N2O3]+, Rule of HR False"
+

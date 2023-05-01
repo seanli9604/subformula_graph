@@ -1,0 +1,54 @@
+NAME: Dimethoate
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1702.2
+PRECURSORMZ: 228.99893
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C5H12NO3PS2
+INCHIKEY: MCWXGJITAZMZEV-UHFFFAOYSA-N
+INCHI: 
+SMILES: CNC(=O)CSP(=S)(OC)OC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 33
+69.06982	1538937	"Theoretical m/z 69.070425, Mass diff 0 (0 ppm), Formula C5H9"
+70.07768	532530	"Theoretical m/z 70.07825, Mass diff 0 (0 ppm), Formula C5H10"
+77.03852	314486
+78.9943	6076470	"Theoretical m/z 78.994891, Mass diff 0 (0 ppm), Formula CH4O2P"
+86.00585	3140084	"Theoretical m/z 86.006445, Mass diff 0 (0 ppm), Formula C3H4NS"
+87.01368	24095090
+88.01703	2435124
+89.00945	1482047
+91.0542	569001
+92.02595	1210720	"Theoretical m/z 92.026525, Mass diff 0 (0 ppm), Formula C2H7NOP"
+93.00996	9839753	"Theoretical m/z 93.00999, Mass diff 0 (0.33 ppm), SMILES O(C)POC, Annotation [C2H7O2P-H]+, Rule of HR True"
+94.01329	748083
+94.97143	623775	"Theoretical m/z 94.9715, Mass diff 0 (0.74 ppm), SMILES O(C)P=S, Annotation [CH5OPS-H]+, Rule of HR True"
+95.08546	462474
+95.92509	475123
+104.06197	1097844	"Theoretical m/z 104.062911, Mass diff 0 (0 ppm), Formula C4H11NP"
+105.06983	273718
+110.96635	1009603	"Theoretical m/z 110.966411, Mass diff 0 (0.55 ppm), SMILES OP(OC)=S, Annotation [CH5O2PS-H]+, Rule of HR True"
+118.98569	258120	"Theoretical m/z 118.983661, Mass diff -0.003 (0 ppm), Formula H7O3S2"
+119.99357	458126	"Theoretical m/z 119.994166, Mass diff 0 (0 ppm), Formula C3H6NS2"
+123.998	1503707	"Theoretical m/z 123.998596, Mass diff 0 (0 ppm), Formula C2H7NOPS"
+124.98197	21904680	"Theoretical m/z 124.982067, Mass diff 0 (0.77 ppm), SMILES O(C)P(OC)=S, Annotation [C2H7O2PS-H]+, Rule of HR True"
+125.9853	1050509
+126.97772	1392736
+140.97685	398803	"Theoretical m/z 140.977527, Mass diff 0 (0 ppm), Formula C2H6O3PS"
+142.99255	5635614	"Theoretical m/z 142.993177, Mass diff 0 (0 ppm), Formula C2H8O3PS"
+155.96997	466212	"Theoretical m/z 155.970667, Mass diff 0 (0 ppm), Formula C2H7NOPS2"
+156.95406	1073737	"Theoretical m/z 156.954136, Mass diff 0 (0.48 ppm), SMILES O(C)P(OC)(=S)S, Annotation [C2H7O2PS2-H]+, Rule of HR True"
+158.96965	572437	"Theoretical m/z 158.969786, Mass diff 0 (0.85 ppm), SMILES O(C)P(OC)(=S)S, Annotation [C2H7O2PS2+H]+, Rule of HR True"
+169.96185	330951
+170.96965	661583	"Theoretical m/z 170.969791, Mass diff 0 (0.82 ppm), SMILES O(C)P(OC)(=S)SC, Annotation [C3H9O2PS2-H]+, Rule of HR True"
+173.95683	408590	"Theoretical m/z 173.960103, Mass diff 0.003 (0 ppm), Formula C5H5NPS2"
+197.98054	271846	"Theoretical m/z 197.980686, Mass diff 0 (0.74 ppm), SMILES O=C(NC)CSP(OC)=S, Annotation [C4H10NO2PS2-H]+, Rule of HR True"
+

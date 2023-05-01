@@ -1,0 +1,34 @@
+NAME: 4-tert-Octylphenol
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1601.6
+PRECURSORMZ: 206.1664
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C14H22O
+INCHIKEY: ISAVYTVYFVQUDY-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC(C)(C)CC(C)(C)C1=CC=C(C=C1)O
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 13
+77.03854	12261367	"Theoretical m/z 77.038578, Mass diff 0 (0.49 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+79.05421	5624870	"Theoretical m/z 79.054228, Mass diff 0 (0.22 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6+H]+, Rule of HR True"
+91.05421	21404478	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+95.04912	16794878	"Theoretical m/z 95.049141, Mass diff 0 (-0.22 ppm), SMILES C\C(=C\C=C)C#[O+], Annotation [C6H7O]+, Rule of HR True"
+107.0491	109753656	"Theoretical m/z 107.049141, Mass diff 0 (-0.38 ppm), SMILES [OH+]=CC1=CC=CC=C1, Annotation [C7H7O]+, Rule of HR True"
+108.05241	6539952
+115.05418	3842612	"Theoretical m/z 115.054229, Mass diff 0 (0.42 ppm), SMILES C1=CC=C(C=C1)C(C)C, Annotation [C9H12-5H]+, Rule of HR True"
+119.04912	11775989	"Theoretical m/z 119.049142, Mass diff 0 (0.19 ppm), SMILES OC1=CC=C(C=C1)CC, Annotation [C8H10O-3H]+, Rule of HR True"
+121.06477	3301394	"Theoretical m/z 121.064792, Mass diff 0 (0.18 ppm), SMILES OC1=CC=C(C=C1)CC, Annotation [C8H10O-H]+, Rule of HR True"
+133.06488	6097127	"Theoretical m/z 133.064798, Mass diff 0 (0.62 ppm), SMILES OC1=CC=C(C=C1)C(C)C, Annotation [C9H12O-3H]+, Rule of HR True"
+134.07269	10438494	"Theoretical m/z 134.072623, Mass diff 0 (0.5 ppm), SMILES OC1=CC=C(C=C1)C(C)C, Annotation [C9H12O-2H]+, Rule of HR False"
+135.08035	306380768	"Theoretical m/z 135.080448, Mass diff 0 (0.72 ppm), SMILES OC1=CC=C(C=C1)C(C)C, Annotation [C9H12O-H]+, Rule of HR True"
+136.08359	24557076
+

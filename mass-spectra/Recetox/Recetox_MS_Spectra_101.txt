@@ -1,0 +1,87 @@
+NAME: cis-Cyfluthrin_isomer1
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2764.2
+PRECURSORMZ: 401.0545
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C22H18Cl2FNO3
+INCHIKEY: QQODLKZGRKWIFG-QSFXBCCZSA-N
+INCHI: 
+SMILES: CC1(C(C1C(=O)OC(C#N)C2=CC(=C(C=C2)F)OC3=CC=CC=C3)C=C(Cl)Cl)C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 66
+74.01516	3085	"Theoretical m/z 74.01565, Mass diff 0 (0 ppm), Formula C6H2"
+75.02612	5837
+77.03863	3309	"Theoretical m/z 77.038578, Mass diff 0 (0.68 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-H]+, Rule of HR True"
+78.04647	7019	"Theoretical m/z 78.046403, Mass diff 0 (0.86 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6]+, Rule of HR False"
+78.91786	2764
+83.08559	5681	"Theoretical m/z 83.085529, Mass diff 0 (0.73 ppm), SMILES *C(*)C1C(*)C1(C)C, Annotation [C6H12-H]+, Rule of HR True"
+84.98397	3372	"Theoretical m/z 84.984503, Mass diff 0 (0 ppm), Formula C4H2Cl"
+87.04411	2496
+89.03864	2790	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+91.05431	104071	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+92.05766	13388
+93.06998	6598	"Theoretical m/z 93.070425, Mass diff 0 (0 ppm), Formula C7H9"
+93.9414	2724
+94.0414	10717	"Theoretical m/z 94.041313, Mass diff 0 (0.92 ppm), SMILES [OH+]C1=CC=CC=C1, Annotation [C6H6O-H]+, Rule of HR True"
+104.06209	2446	"Theoretical m/z 104.0626, Mass diff 0 (0 ppm), Formula C8H8"
+107.04917	5222	"Theoretical m/z 107.049141, Mass diff 0 (0.27 ppm), SMILES [OH+]=CC1=CC=CC=C1, Annotation [C7H7O]+, Rule of HR True"
+107.08559	5580	"Theoretical m/z 107.086075, Mass diff 0 (0 ppm), Formula C8H11"
+108.09358	2718	"Theoretical m/z 108.0939, Mass diff 0 (0 ppm), Formula C8H12"
+108.96073	2148	"Theoretical m/z 108.960636, Mass diff 0 (0.86 ppm), SMILES *C(*)C=C(Cl)Cl, Annotation [C3H4Cl2-H]+, Rule of HR True"
+115.05425	3744	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+119.08551	7665	"Theoretical m/z 119.086075, Mass diff 0 (0 ppm), Formula C9H11"
+120.05713	2961	"Theoretical m/z 120.057515, Mass diff 0 (0 ppm), Formula C8H8O"
+125.01531	2376	"Theoretical m/z 125.015803, Mass diff 0 (0 ppm), Formula C7H6Cl"
+127.03095	113874	"Theoretical m/z 127.030908, Mass diff 0 (0.33 ppm), SMILES *C(Cl)=CC1C(*)C1(C)C, Annotation [C7H11Cl-3H]+, Rule of HR True"
+129.02802	38935
+135.0625	2059	"Theoretical m/z 135.061003, Mass diff -0.002 (0 ppm), Formula C9H8F"
+139.05424	6908	"Theoretical m/z 139.054775, Mass diff 0 (0 ppm), Formula C11H7"
+149.04491	4342
+151.02414	13757
+152.06206	4237	"Theoretical m/z 152.06423, Mass diff 0.002 (0 ppm), Formula C6H12ClFN"
+159.06033	2846	"Theoretical m/z 159.061003, Mass diff 0 (0 ppm), Formula C11H8F"
+161.13252	2200	"Theoretical m/z 161.133026, Mass diff 0 (0 ppm), Formula C12H17"
+163.00761	69958	"Theoretical m/z 163.007587, Mass diff 0 (0.14 ppm), SMILES *C1C(C=C(Cl)Cl)C1(C)C, Annotation [C7H10Cl2-H]+, Rule of HR True"
+164.01088	3431
+165.00465	35079
+166.07758	1999	"Theoretical m/z 166.07825, Mass diff 0 (0 ppm), Formula C13H10"
+169.03467	11647
+169.06454	10267	"Theoretical m/z 169.064792, Mass diff 0 (1.49 ppm), SMILES *C1=CC=C(*)C(OC=2C=CC=CC2)=C1, Annotation [C12H10O-H]+, Rule of HR True"
+170.05272	13845	"Theoretical m/z 170.05033, Mass diff -0.003 (0 ppm), Formula C6H14Cl2N"
+171.06052	6825	"Theoretical m/z 171.061003, Mass diff 0 (0 ppm), Formula C12H8F"
+177.05727	3428
+178.07768	5743	"Theoretical m/z 178.07825, Mass diff 0 (0 ppm), Formula C14H10"
+183.08054	2972	"Theoretical m/z 183.08099, Mass diff 0 (0 ppm), Formula C13H11O"
+184.0881	9243	"Theoretical m/z 184.089302, Mass diff 0.001 (0 ppm), Formula C10H15ClN"
+198.07159	13404	"Theoretical m/z 198.071903, Mass diff 0 (0 ppm), Formula C13H9FN"
+199.05534	85192	"Theoretical m/z 199.055368, Mass diff 0 (0.14 ppm), SMILES *C(*)C1=CC=C(F)C(OC=2C=CC=CC2)=C1, Annotation [C13H11FO-3H]+, Rule of HR True"
+200.05859	18126
+205.05299	2987	"Theoretical m/z 205.052212, Mass diff 0.001 (3.79 ppm), SMILES *C1=CC=C(C=C1OC=2C=CC=CC2)C(*)C#N, Annotation [C14H11NO-4H]+, Rule of HR False"
+206.06009	190039	"Theoretical m/z 206.060037, Mass diff 0 (0.26 ppm), SMILES *C1=CC=C(C=C1OC=2C=CC=CC2)C(*)C#N, Annotation [C14H11NO-3H]+, Rule of HR True"
+207.03238	32947	"Theoretical m/z 207.032629, Mass diff 0 (1.2 ppm), SMILES *OC1=CC(=CC=C1F)C(C#N)OC(=O)C(*)*, Annotation [C10H8FNO3-2H]+, Rule of HR False"
+207.06338	10910
+210.99104	2988	"Theoretical m/z 210.995067, Mass diff 0.003 (0 ppm), Formula C13H4ClO"
+211.06055	3391
+215.05035	6742	"Theoretical m/z 215.050287, Mass diff 0 (0.29 ppm), SMILES *OC(*)C1=CC=C(F)C(OC=2C=CC=CC2)=C1, Annotation [C13H11FO2-3H]+, Rule of HR True"
+216.05824	3291	"Theoretical m/z 216.058112, Mass diff 0 (0.59 ppm), SMILES *OC(*)C1=CC=C(F)C(OC=2C=CC=CC2)=C1, Annotation [C13H11FO2-2H]+, Rule of HR False"
+223.06384	13436	"Theoretical m/z 223.062781, Mass diff 0.001 (4.75 ppm), SMILES *OC(C#N)C1=CC=C(*)C(OC=2C=CC=CC2)=C1, Annotation [C14H11NO2-2H]+, Rule of HR False"
+224.05051	4861	"Theoretical m/z 224.051167, Mass diff 0 (0 ppm), Formula C14H7FNO"
+226.04163	2447	"Theoretical m/z 226.042352, Mass diff 0 (0 ppm), Formula C14H9ClN"
+227.0222	37560	"Theoretical m/z 227.026368, Mass diff 0.004 (0 ppm), Formula C14H8ClO"
+227.0398	23460	"Theoretical m/z 227.040574, Mass diff 0 (0 ppm), Formula C9H14Cl2FO"
+228.07744	3209
+285.07965	2812	"Theoretical m/z 285.07956, Mass diff 0 (0.32 ppm), SMILES *C(*)C(=O)OC(C#N)C1=CC=C(F)C(OC=2C=CC=CC2)=C1, Annotation [C16H12FNO3]+, Rule of HR False"
+300.06085	2408	"Theoretical m/z 300.059145, Mass diff -0.002 (0 ppm), Formula C17H12ClFNO"
+313.11368	2626
+342.99674	3076
+344.97629	2326
+

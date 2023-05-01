@@ -1,0 +1,32 @@
+
+NAME: Fenpropimorph_isomer1
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1911.8
+PRECURSORMZ: 303.25565
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C20H33NO
+INCHIKEY: RYAUSSKQMZRMAI-ALOPSCKCSA-N
+INCHI: 
+SMILES: CC1CN(CC(O1)C)CC(C)CC2=CC=C(C=C2)C(C)(C)C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 10
+86.05997	179818	"Theoretical m/z 86.060037, Mass diff 0 (0.78 ppm), SMILES OC(C)CNC, Annotation [C4H11NO-3H]+, Rule of HR True"
+91.05418	208328	"Theoretical m/z 91.054226, Mass diff 0 (0.5 ppm), SMILES C1=CC=C(C=C1)C, Annotation [C7H8-H]+, Rule of HR True"
+110.09638	444312	"Theoretical m/z 110.096428, Mass diff 0 (-0.44 ppm), SMILES CCC1=[N+](C)CC=C1, Annotation [C7H12N]+, Rule of HR True"
+126.06744	159501
+126.09129	184545	"Theoretical m/z 126.091338, Mass diff 0 (0.38 ppm), SMILES OC(C)CN(C)CCC, Annotation [C7H17NO-5H]+, Rule of HR True"
+128.10686	11155056	"Theoretical m/z 128.106983, Mass diff 0 (0.96 ppm), SMILES O1C(C)CN(C)CC1C, Annotation [C7H15NO-H]+, Rule of HR True"
+129.06969	977330	"Theoretical m/z 129.070425, Mass diff 0 (0 ppm), Formula C10H9"
+131.0854	192796	"Theoretical m/z 131.085519, Mass diff 0 (0.91 ppm), SMILES C=1C=C(C=CC=1C)C(C)C, Annotation [C10H14-3H]+, Rule of HR True"
+147.08029	188461	"Theoretical m/z 147.08099, Mass diff 0 (0 ppm), Formula C10H11O"
+303.25565	138525	"Theoretical m/z 303.255677, Mass diff 0 (0.09 ppm), SMILES O1C(C)CN(CC1C)CC(C)CC2=CC=C(C=C2)C(C)(C)C, Annotation [C20H33NO]+, Rule of HR False"
+

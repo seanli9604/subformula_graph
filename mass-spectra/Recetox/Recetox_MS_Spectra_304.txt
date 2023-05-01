@@ -1,0 +1,34 @@
+NAME: Pyrimethanil
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1769.7
+PRECURSORMZ: 199.10992
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C12H13N3
+INCHIKEY: ZLIBICFPKPWGIZ-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1=CC(=NC(=N1)NC2=CC=CC=C2)C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 13
+77.03851	6917426	"Theoretical m/z 77.038578, Mass diff 0 (0.88 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+91.04161	7067286	"Theoretical m/z 91.041647, Mass diff 0 (0.41 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N-2H]+, Rule of HR False"
+92.04941	4758966	"Theoretical m/z 92.049472, Mass diff 0 (0.68 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N-H]+, Rule of HR True"
+118.05241	4881936	"Theoretical m/z 118.05255, Mass diff 0 (1.18 ppm), SMILES N=CNC1=CC=CC=C1, Annotation [C7H8N2-2H]+, Rule of HR False"
+156.06802	5442062	"Theoretical m/z 156.068203, Mass diff 0 (1.17 ppm), SMILES N(=CNC1=CC=CC=C1)C(=C)C, Annotation [C10H12N2-4H]+, Rule of HR False"
+157.07593	6352328	"Theoretical m/z 157.076028, Mass diff 0 (0.63 ppm), SMILES N(=CNC1=CC=CC=C1)C(=C)C, Annotation [C10H12N2-3H]+, Rule of HR True"
+182.07121	4998301	"Theoretical m/z 182.071822, Mass diff 0 (0 ppm), Formula C11H8N3"
+183.07904	18841738
+184.0869	7320156	"Theoretical m/z 184.086918, Mass diff 0 (0.1 ppm), SMILES N=1C=CC(=NC=1NC2=CC=CC=C2)C, Annotation [C11H11N3-H]+, Rule of HR True"
+197.09485	12245212
+198.10246	463726176	"Theoretical m/z 198.103122, Mass diff 0 (0 ppm), Formula C12H12N3"
+199.10992	118485328	"Theoretical m/z 199.110398, Mass diff 0 (2.4 ppm), SMILES N=1C(=NC(=CC=1C)C)NC2=CC=CC=C2, Annotation [C12H13N3]+, Rule of HR False"
+200.11342	13797146
+

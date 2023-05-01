@@ -1,0 +1,40 @@
+NAME: Phenanthrene
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1832.9
+PRECURSORMZ: 178.0775
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C14H10
+INCHIKEY: YNPNZTXNASCQKK-UHFFFAOYSA-N
+INCHI: 
+SMILES: C1=CC2=C(C=C1)C1=C(C=CC=C1)C=C2
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 19
+74.01508	137808	"Theoretical m/z 74.01565, Mass diff 0 (0 ppm), Formula C6H2"
+75.02295	278714	"Theoretical m/z 75.023475, Mass diff 0 (0 ppm), Formula C6H3"
+76.03075	608417	"Theoretical m/z 76.0313, Mass diff 0 (0 ppm), Formula C6H4"
+87.02295	304266	"Theoretical m/z 87.023475, Mass diff 0 (0 ppm), Formula C7H3"
+88.03076	497050	"Theoretical m/z 88.0313, Mass diff 0 (0 ppm), Formula C7H4"
+89.03857	441168	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+98.01511	150478
+150.04633	868927
+151.05415	546351	"Theoretical m/z 151.054775, Mass diff 0 (0 ppm), Formula C12H7"
+152.0619	2275502
+153.06528	276320
+169.06468	272559
+174.04636	365846
+175.05423	272039	"Theoretical m/z 175.054775, Mass diff 0 (0 ppm), Formula C14H7"
+176.062	3370523	"Theoretical m/z 176.0626, Mass diff 0 (0 ppm), Formula C14H8"
+177.06982	1751846	"Theoretical m/z 177.070425, Mass diff 0 (0 ppm), Formula C14H9"
+178.0775	13724432	"Theoretical m/z 178.077698, Mass diff 0 (1.11 ppm), SMILES C=1C=CC2=C(C1)C=CC=3C=CC=CC32, Annotation [C14H10]+, Rule of HR False"
+179.08078	2250119
+180.08412	138203
+

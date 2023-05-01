@@ -1,0 +1,42 @@
+NAME: Bifenthrin
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2464.2
+PRECURSORMZ: 355.06982
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C23H22ClF3O2
+INCHIKEY: OMFRMAHOUUJSGP-IRHGGOMRSA-N
+INCHI: 
+SMILES: CC1=C(C=CC=C1COC(=O)[C@@H]1[C@H](\C=C(/Cl)C(F)(F)F)C1(C)C)C1=CC=CC=C1
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 21
+77.03857	56682	"Theoretical m/z 77.038578, Mass diff 0 (0.1 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-H]+, Rule of HR True"
+91.05428	100368	"Theoretical m/z 91.054226, Mass diff 0 (0.6 ppm), SMILES *C1=CC=CC(*)=C1C, Annotation [C7H8-H]+, Rule of HR True"
+115.05423	122107	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+127.03537	55190	"Theoretical m/z 127.035932, Mass diff 0 (0 ppm), Formula C7H5F2"
+139.05417	57087	"Theoretical m/z 139.054775, Mass diff 0 (0 ppm), Formula C11H7"
+141.05103	322726	"Theoretical m/z 141.051582, Mass diff 0 (0 ppm), Formula C8H7F2"
+152.062	292204
+153.06981	394468	"Theoretical m/z 153.069873, Mass diff 0 (0.41 ppm), SMILES *C1=CC=CC(C=2C=CC=CC2)=C1*, Annotation [C12H10-H]+, Rule of HR True"
+154.07318	73353
+164.062	117682
+165.06984	3238298	"Theoretical m/z 165.069879, Mass diff 0 (0.24 ppm), SMILES *C1=C(C=CC=C1C*)C=2C=CC=CC2, Annotation [C13H12-3H]+, Rule of HR True"
+166.07752	3989494	"Theoretical m/z 166.077704, Mass diff 0 (1.11 ppm), SMILES *C1=CC=CC(C=2C=CC=CC2)=C1C, Annotation [C13H12-2H]+, Rule of HR False"
+167.08099	657728
+168.08434	59478
+176.06198	72465	"Theoretical m/z 176.0626, Mass diff 0 (0 ppm), Formula C14H8"
+178.07765	460872	"Theoretical m/z 178.07825, Mass diff 0 (0 ppm), Formula C14H10"
+179.08542	552822	"Theoretical m/z 179.086075, Mass diff 0 (0 ppm), Formula C14H11"
+180.0932	388519
+181.10103	5209914	"Theoretical m/z 181.101169, Mass diff 0 (0.77 ppm), SMILES *CC1=CC=CC(C=2C=CC=CC2)=C1C, Annotation [C14H14-H]+, Rule of HR True"
+182.10442	725352
+183.10777	59089
+

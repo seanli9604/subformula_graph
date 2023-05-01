@@ -1,0 +1,36 @@
+NAME: Fenobucarb
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1582
+PRECURSORMZ: 176.0831
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C12H17NO2
+INCHIKEY: DIRFUJHNVNOBMY-UHFFFAOYSA-N
+INCHI: 
+SMILES: CCC(C)C1=CC=CC=C1OC(=O)NC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 15
+77.03851	12413588	"Theoretical m/z 77.038578, Mass diff 0 (0.88 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+79.05418	2770657	"Theoretical m/z 79.054228, Mass diff 0 (0.6 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6+H]+, Rule of HR True"
+91.05418	27233766	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+92.05753	2408918
+93.06984	23636872	"Theoretical m/z 93.070425, Mass diff 0 (0 ppm), Formula C7H9"
+94.07318	2415164
+103.05415	11250270	"Theoretical m/z 103.054223, Mass diff 0 (0.71 ppm), SMILES C1=CC=C(C=C1)CC, Annotation [C8H10-3H]+, Rule of HR True"
+107.04906	13986535	"Theoretical m/z 107.049141, Mass diff 0 (-0.76 ppm), SMILES [OH+]=CC1=CC=CC=C1, Annotation [C7H7O]+, Rule of HR True"
+115.05415	3995070	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+119.04916	2507454	"Theoretical m/z 119.049142, Mass diff 0 (0.15 ppm), SMILES OC1=CC=CC=C1CC, Annotation [C8H10O-3H]+, Rule of HR True"
+121.06467	219477808	"Theoretical m/z 121.064792, Mass diff 0 (1.01 ppm), SMILES OC1=CC=CC=C1CC, Annotation [C8H10O-H]+, Rule of HR True"
+122.06789	19132906
+135.08028	2299688	"Theoretical m/z 135.080448, Mass diff 0 (1.24 ppm), SMILES OC1=CC=CC=C1C(C)C, Annotation [C9H12O-H]+, Rule of HR True"
+150.10379	34745016
+151.10715	3701689
+

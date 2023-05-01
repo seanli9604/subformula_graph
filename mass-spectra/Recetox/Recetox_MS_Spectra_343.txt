@@ -1,0 +1,35 @@
+NAME: Bitertanol_isomer1
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2714.6
+PRECURSORMZ: 268.14548
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C20H23N3O2
+INCHIKEY: VGPIBGGRCVEHQZ-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC(C)(C)C(C(N1C=NC=N1)OC2=CC=C(C=C2)C3=CC=CC=C3)O
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 14
+70.03996	2001046	"Theoretical m/z 70.039976, Mass diff 0 (0.23 ppm), SMILES N=1C=NNC=1, Annotation [C2H3N3+H]+, Rule of HR True"
+112.05045	3039869	"Theoretical m/z 112.050541, Mass diff 0 (0.81 ppm), SMILES OCCN1N=CN=C1, Annotation [C4H7N3O-H]+, Rule of HR True"
+115.05418	3695384	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+139.05411	1034262	"Theoretical m/z 139.054775, Mass diff 0 (0 ppm), Formula C11H7"
+141.06975	4794412	"Theoretical m/z 141.070425, Mass diff 0 (0 ppm), Formula C11H9"
+142.07767	946852
+151.05421	697161	"Theoretical m/z 151.054775, Mass diff 0 (0 ppm), Formula C12H7"
+152.06197	3098720
+153.06979	1325678	"Theoretical m/z 153.069873, Mass diff 0 (0.55 ppm), SMILES C1=CC=C(C=C1)C2=CC=CC=C2, Annotation [C12H10-H]+, Rule of HR True"
+168.11317	6733095	"Theoretical m/z 168.113132, Mass diff 0 (0.23 ppm), SMILES OC(CN1N=CN=C1)C(C)(C)C, Annotation [C8H15N3O-H]+, Rule of HR True"
+169.06484	3456734	"Theoretical m/z 169.064792, Mass diff 0 (0.28 ppm), SMILES OC1=CC=C(C=C1)C2=CC=CC=C2, Annotation [C12H10O-H]+, Rule of HR True"
+169.1165	612546
+170.0725	59359012	"Theoretical m/z 170.072617, Mass diff 0 (0.69 ppm), SMILES OC1=CC=C(C=C1)C2=CC=CC=C2, Annotation [C12H10O]+, Rule of HR False"
+171.07579	7524659
+

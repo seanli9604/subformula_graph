@@ -1,0 +1,45 @@
+NAME: Limonene
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1032.9
+PRECURSORMZ: 136.1247
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C10H16
+INCHIKEY: XMGQYMWWDOXHJM-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1=CCC(CC1)C(=C)C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 24
+77.03864	8246790	"Theoretical m/z 77.039125, Mass diff 0 (0 ppm), Formula C6H5"
+78.03393	1764476
+79.0417	18816324
+80.04501	3673388
+81.06992	2135769	"Theoretical m/z 81.069878, Mass diff 0 (0.52 ppm), SMILES C1C[C+]2CCC12, Annotation [C6H9]+, Rule of HR True"
+83.04918	311014
+89.03862	295801	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+91.0543	17995308	"Theoretical m/z 91.054229, Mass diff 0 (0.78 ppm), SMILES *C(*)=CCC(*)C(=C)C, Annotation [C7H12-5H]+, Rule of HR True"
+92.06211	10077935	"Theoretical m/z 92.062054, Mass diff 0 (0.61 ppm), SMILES *C(*)=CCC(*)C(=C)C, Annotation [C7H12-4H]+, Rule of HR False"
+93.06995	25567012	"Theoretical m/z 93.069879, Mass diff 0 (0.76 ppm), SMILES *C(*)=CCC(*)C(=C)C, Annotation [C7H12-3H]+, Rule of HR True"
+94.07774	13565374	"Theoretical m/z 94.077704, Mass diff 0 (0.38 ppm), SMILES *C1CC=C(C)CC1, Annotation [C7H12-2H]+, Rule of HR False"
+95.08557	3666852	"Theoretical m/z 95.085529, Mass diff 0 (0.43 ppm), SMILES *C1CC=C(C)CC1, Annotation [C7H12-H]+, Rule of HR True"
+97.06487	2255899
+103.0543	713222	"Theoretical m/z 103.054775, Mass diff 0 (0 ppm), Formula C8H7"
+105.06997	3084284	"Theoretical m/z 105.069879, Mass diff 0 (0.87 ppm), SMILES *C1=CCC(C(*)=C)CC1, Annotation [C8H12-3H]+, Rule of HR True"
+106.07778	541803	"Theoretical m/z 106.077704, Mass diff 0 (0.72 ppm), SMILES *C1=CCC(C(*)=C)CC1, Annotation [C8H12-2H]+, Rule of HR False"
+107.08558	5924092	"Theoretical m/z 107.085529, Mass diff 0 (0.48 ppm), SMILES *C1=CCC(C(*)=C)CC1, Annotation [C8H12-H]+, Rule of HR True"
+108.09338	1115256	"Theoretical m/z 108.093354, Mass diff 0 (0.24 ppm), SMILES *C1=CCC(C(*)=C)CC1, Annotation [C8H12]+, Rule of HR False"
+111.0805	678866
+115.05427	507842	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+119.08559	537875	"Theoretical m/z 119.086075, Mass diff 0 (0 ppm), Formula C9H11"
+121.10121	6260196	"Theoretical m/z 121.101177, Mass diff 0 (0.27 ppm), SMILES *C1=CCC(C(=C)C)CC1, Annotation [C9H14-H]+, Rule of HR True"
+122.10454	589702
+136.1247	710005	"Theoretical m/z 136.12465, Mass diff 0 (0.37 ppm), SMILES C=C(C)C1CC=C(C)CC1, Annotation [C10H16]+, Rule of HR False"
+

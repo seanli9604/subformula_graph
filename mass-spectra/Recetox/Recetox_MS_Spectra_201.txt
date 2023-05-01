@@ -1,0 +1,53 @@
+NAME: 1,2-Dimethylnaphthalene
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1432
+PRECURSORMZ: 156.09256
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C12H12
+INCHIKEY: QNLZIZAQLLYXTC-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1=C(C2=CC=CC=C2C=C1)C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 32
+75.02263	16910	"Theoretical m/z 75.023475, Mass diff 0 (0 ppm), Formula C6H3"
+76.03045	48687	"Theoretical m/z 76.0313, Mass diff 0 (0 ppm), Formula C6H4"
+77.03825	29273	"Theoretical m/z 77.039125, Mass diff 0 (0 ppm), Formula C6H5"
+78.0461	22203	"Theoretical m/z 78.04695, Mass diff 0 (0 ppm), Formula C6H6"
+87.02254	25879	"Theoretical m/z 87.023475, Mass diff 0 (0 ppm), Formula C7H3"
+89.03819	23120	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+90.04604	18055	"Theoretical m/z 90.04695, Mass diff 0 (0 ppm), Formula C7H6"
+98.10857	27886
+111.11634	24652
+113.03799	21354	"Theoretical m/z 113.039125, Mass diff 0.001 (0 ppm), Formula C9H5"
+115.0537	332081	"Theoretical m/z 115.054775, Mass diff 0.001 (0 ppm), Formula C9H7"
+116.05702	41405
+120.09281	19872
+126.04585	33431
+127.05359	15987
+128.06146	134628	"Theoretical m/z 128.062058, Mass diff 0.001 (4.67 ppm), SMILES C=1C=CC2=CC=CC=C2(C=1), Annotation [C10H8]+, Rule of HR False"
+129.06923	30601
+133.10056	29540	"Theoretical m/z 133.101725, Mass diff 0.001 (0 ppm), Formula C10H13"
+139.05356	47243	"Theoretical m/z 139.054775, Mass diff 0.001 (0 ppm), Formula C11H7"
+140.05695	16976
+141.06918	1423198	"Theoretical m/z 141.069873, Mass diff 0.001 (4.92 ppm), SMILES C1=CC=C2C(=C1)C=CC=C2C, Annotation [C11H10-H]+, Rule of HR True"
+142.07254	170376
+150.02592	20850
+151.02338	30021
+151.05344	26329	"Theoretical m/z 151.054775, Mass diff 0.001 (0 ppm), Formula C12H7"
+152.06128	138216
+153.06908	163300	"Theoretical m/z 153.070425, Mass diff 0.001 (0 ppm), Formula C12H9"
+155.08472	191231	"Theoretical m/z 155.086075, Mass diff 0.001 (0 ppm), Formula C12H11"
+156.09256	660211
+157.09598	84252
+225.04181	26777
+227.0211	17072
+

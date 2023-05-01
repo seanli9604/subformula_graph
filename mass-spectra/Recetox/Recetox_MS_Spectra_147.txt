@@ -1,0 +1,29 @@
+NAME: Benzyl salicylate
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1882.4
+PRECURSORMZ: 228.07799
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C14H12O3
+INCHIKEY: ZCTQGTTXIYCGGC-UHFFFAOYSA-N
+INCHI: 
+SMILES: C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2O
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 8
+77.03857	431016	"Theoretical m/z 77.038578, Mass diff 0 (0.1 ppm), SMILES *C=1C=CC=CC1, Annotation [C6H6-H]+, Rule of HR True"
+79.04166	501621
+89.03862	913237	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+91.05424	42685428	"Theoretical m/z 91.054226, Mass diff 0 (0.16 ppm), SMILES *CC=1C=CC=CC1, Annotation [C7H8-H]+, Rule of HR True"
+92.0575	3918150
+121.02838	991416	"Theoretical m/z 121.028408, Mass diff 0 (0.23 ppm), SMILES *C(=O)C=1C=CC=CC1O, Annotation [C7H6O2-H]+, Rule of HR True"
+210.06744	947880	"Theoretical m/z 210.067526, Mass diff 0 (0.41 ppm), SMILES *C=1C=CC=CC1C(=O)OCC=2C=CC=CC2, Annotation [C14H12O2-2H]+, Rule of HR False"
+228.07799	1116280	"Theoretical m/z 228.078095, Mass diff 0 (0.46 ppm), SMILES O=C(OCC=1C=CC=CC1)C=2C=CC=CC2O, Annotation [C14H12O3]+, Rule of HR False"
+

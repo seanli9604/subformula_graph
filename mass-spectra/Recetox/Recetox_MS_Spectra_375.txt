@@ -1,0 +1,35 @@
+NAME: Fenpropimorph_isomer2
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1954.8
+PRECURSORMZ: 303.25555
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C20H33NO
+INCHIKEY: RYAUSSKQMZRMAI-ALOPSCKCSA-N
+INCHI: 
+SMILES: CC1CN(CC(O1)C)CC(C)CC2=CC=C(C=C2)C(C)(C)C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 14
+70.0651	20307440	"Theoretical m/z 70.065126, Mass diff 0 (0.37 ppm), SMILES N(C)CCC, Annotation [C4H11N-3H]+, Rule of HR True"
+84.08075	9429270	"Theoretical m/z 84.080772, Mass diff 0 (-0.27 ppm), SMILES C[N+]1=CCCC1, Annotation [C5H10N]+, Rule of HR True"
+86.05998	14735932	"Theoretical m/z 86.060037, Mass diff 0 (0.66 ppm), SMILES OC(C)CNC, Annotation [C4H11NO-3H]+, Rule of HR True"
+91.05418	16775366	"Theoretical m/z 91.054226, Mass diff 0 (0.5 ppm), SMILES C1=CC=C(C=C1)C, Annotation [C7H8-H]+, Rule of HR True"
+105.06986	5865755	"Theoretical m/z 105.070425, Mass diff 0 (0 ppm), Formula C8H9"
+110.09638	68981208	"Theoretical m/z 110.096428, Mass diff 0 (-0.44 ppm), SMILES CCC1=[N+](C)CC=C1, Annotation [C7H12N]+, Rule of HR True"
+115.05417	11662899	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+117.06978	26159858	"Theoretical m/z 117.069879, Mass diff 0 (0.84 ppm), SMILES C1=CC=C(C=C1)CCC, Annotation [C9H12-3H]+, Rule of HR True"
+128.10686	552684096	"Theoretical m/z 128.106983, Mass diff 0 (0.96 ppm), SMILES O1C(C)CN(C)CC1C, Annotation [C7H15NO-H]+, Rule of HR True"
+129.11005	49092144
+131.08536	12380929	"Theoretical m/z 131.085519, Mass diff 0 (1.21 ppm), SMILES C=1C=C(C=CC=1C)C(C)C, Annotation [C10H14-3H]+, Rule of HR True"
+145.10107	15727732	"Theoretical m/z 145.101725, Mass diff 0 (0 ppm), Formula C11H13"
+173.13243	14628819	"Theoretical m/z 173.13247, Mass diff 0 (0.23 ppm), SMILES C=1C=C(C=CC=1CCC)C(C)(C)C, Annotation [C13H20-3H]+, Rule of HR True"
+303.25555	8990729	"Theoretical m/z 303.255677, Mass diff 0 (0.42 ppm), SMILES O1C(C)CN(CC1C)CC(C)CC2=CC=C(C=C2)C(C)(C)C, Annotation [C20H33NO]+, Rule of HR False"
+

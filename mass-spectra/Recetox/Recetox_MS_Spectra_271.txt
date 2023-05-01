@@ -1,0 +1,34 @@
+NAME: Bendiocarb
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1647.1
+PRECURSORMZ: 223.08376
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C11H13NO4
+INCHIKEY: XEGGRYVFLWGFHI-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1(OC2=C(O1)C(=CC=C2)OC(=O)NC)C
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 13
+79.0178	2674740	"Theoretical m/z 79.01839, Mass diff 0 (0 ppm), Formula C5H3O"
+80.0256	3727043
+97.02838	4065354	"Theoretical m/z 97.028954, Mass diff 0 (0 ppm), Formula C5H5O2"
+108.02048	9962600	"Theoretical m/z 108.020583, Mass diff 0 (0.95 ppm), SMILES OC=1C=CC=C(O)C=1, Annotation [C6H6O2-2H]+, Rule of HR False"
+123.04394	7407444	"Theoretical m/z 123.044058, Mass diff 0 (0.96 ppm), SMILES O=COC=1C=CC=CC=1, Annotation [C7H6O2+H]+, Rule of HR True"
+125.02327	3907762	"Theoretical m/z 125.023319, Mass diff 0 (0.39 ppm), SMILES OC=1C=CC=C(O)C=1(O), Annotation [C6H6O3-H]+, Rule of HR True"
+126.03101	45781164	"Theoretical m/z 126.031144, Mass diff 0 (1.06 ppm), SMILES OC=1C=CC=C(O)C=1(O), Annotation [C6H6O3]+, Rule of HR False"
+127.03434	2945581
+151.03885	174249984	"Theoretical m/z 151.038974, Mass diff 0 (0.82 ppm), SMILES OC1=CC=CC=2OC(OC1=2)C, Annotation [C8H8O3-H]+, Rule of HR True"
+152.04207	15114299
+166.06235	69684752	"Theoretical m/z 166.06244, Mass diff 0 (0.54 ppm), SMILES OC1=CC=CC=2OC(OC1=2)(C)C, Annotation [C9H10O3]+, Rule of HR False"
+167.06564	6971254
+223.08376	4389550	"Theoretical m/z 223.083909, Mass diff 0 (0.67 ppm), SMILES O=C(OC1=CC=CC=2OC(OC1=2)(C)C)NC, Annotation [C11H13NO4]+, Rule of HR False"
+

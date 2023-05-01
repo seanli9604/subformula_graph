@@ -1,0 +1,158 @@
+NAME: 1,4-Chrysenequinone
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2717.2
+PRECURSORMZ: 258.0677
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C18H10O2
+INCHIKEY: UORKIKBNUWJNJF-UHFFFAOYSA-N
+INCHI: 
+SMILES: C1=CC=C2C(=C1)C=CC3=C2C=CC4=C3C(=O)C=CC4=O
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 137
+74.01515	3278	"Theoretical m/z 74.01565, Mass diff 0 (0 ppm), Formula C6H2"
+75.02612	3386
+77.03861	3768	"Theoretical m/z 77.039125, Mass diff 0 (0 ppm), Formula C6H5"
+80.06209	4792	"Theoretical m/z 80.0626, Mass diff 0 (0 ppm), Formula C6H8"
+81.06993	32332	"Theoretical m/z 81.069878, Mass diff 0 (0.65 ppm), SMILES C1C[C+]2CCC12, Annotation [C6H9]+, Rule of HR True"
+82.07775	12325	"Theoretical m/z 82.07825, Mass diff 0 (0 ppm), Formula C6H10"
+83.08555	26701	"Theoretical m/z 83.086075, Mass diff 0 (0 ppm), Formula C6H11"
+84.0934	3265
+85.06485	2416	"Theoretical m/z 85.06534, Mass diff 0 (0 ppm), Formula C5H9O"
+86.03626	4571	"Theoretical m/z 86.036779, Mass diff 0 (0 ppm), Formula C4H6O2"
+87.04413	6853	"Theoretical m/z 87.044604, Mass diff 0 (0 ppm), Formula C4H7O2"
+88.03081	22642	"Theoretical m/z 88.0313, Mass diff 0 (0 ppm), Formula C7H4"
+88.53252	2470
+88.95103	2556
+90.04649	2368	"Theoretical m/z 90.04695, Mass diff 0 (0 ppm), Formula C7H6"
+91.05428	6993	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+92.06211	10458	"Theoretical m/z 92.0626, Mass diff 0 (0 ppm), Formula C7H8"
+93.06995	9482	"Theoretical m/z 93.070425, Mass diff 0 (0 ppm), Formula C7H9"
+94.07777	4534	"Theoretical m/z 94.07825, Mass diff 0 (0 ppm), Formula C7H10"
+97.02846	2288	"Theoretical m/z 97.028954, Mass diff 0 (0 ppm), Formula C5H5O2"
+97.06487	3937	"Theoretical m/z 97.064789, Mass diff 0 (0.84 ppm), SMILES O=C1CC[CH+]CC1, Annotation [C6H9O]+, Rule of HR True"
+97.10125	2572
+98.03635	5541
+98.07268	9790
+99.0441	7158	"Theoretical m/z 99.044604, Mass diff 0 (0 ppm), Formula C5H7O2"
+99.11689	9091
+100.03079	23271
+100.53252	3939
+101.03867	27288	"Theoretical m/z 101.039125, Mass diff 0 (0 ppm), Formula C8H5"
+101.54036	6268
+110.10906	10582
+114.06753	2247	"Theoretical m/z 114.06808, Mass diff 0 (0 ppm), Formula C6H10O2"
+114.53801	3186
+115.03089	8578
+115.05427	14223	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+117.0699	17657	"Theoretical m/z 117.070425, Mass diff 0 (0 ppm), Formula C9H9"
+121.02843	9937	"Theoretical m/z 121.028954, Mass diff 0 (0 ppm), Formula C7H5O2"
+121.1012	6240
+125.09614	4149
+126.04643	9482
+131.05238	2184
+132.02066	3955	"Theoretical m/z 132.021129, Mass diff 0 (0 ppm), Formula C8H4O2"
+133.01356	2533
+134.99283	4448
+135.04422	4387	"Theoretical m/z 135.044604, Mass diff 0 (0 ppm), Formula C8H7O2"
+136.08836	2515
+136.1247	2397
+137.13251	9841
+138.14037	2515
+139.05426	3007	"Theoretical m/z 139.054775, Mass diff 0 (0 ppm), Formula C11H7"
+139.14812	2212
+141.0699	6670	"Theoretical m/z 141.070425, Mass diff 0 (0 ppm), Formula C11H9"
+145.06486	3419	"Theoretical m/z 145.06534, Mass diff 0 (0 ppm), Formula C10H9O"
+145.1012	2427
+148.11206	2731
+150.04652	7339
+153.06985	4894	"Theoretical m/z 153.070425, Mass diff 0 (0 ppm), Formula C12H9"
+155.08548	5086	"Theoretical m/z 155.086075, Mass diff 0 (0 ppm), Formula C12H11"
+159.11679	5442
+162.06763	3860	"Theoretical m/z 162.06808, Mass diff 0 (0 ppm), Formula C10H10O2"
+162.14032	2565
+163.0542	4918	"Theoretical m/z 163.054775, Mass diff 0 (0 ppm), Formula C13H7"
+163.11168	4083
+164.06187	2397
+165.06985	4655	"Theoretical m/z 165.070425, Mass diff 0 (0 ppm), Formula C13H9"
+168.09337	2500
+169.06473	5366	"Theoretical m/z 169.06534, Mass diff 0 (0 ppm), Formula C12H9O"
+170.07242	12476
+171.08038	2940	"Theoretical m/z 171.08099, Mass diff 0 (0 ppm), Formula C12H11O"
+171.11678	3508
+172.08821	4064
+173.13245	2946
+174.04633	8236
+175.05389	6460	"Theoretical m/z 175.054223, Mass diff 0 (1.9 ppm), SMILES C=1C=CC3=C(C=1)C=CC2=CC=CC=C23, Annotation [C14H10-3H]+, Rule of HR True"
+175.07516	5503	"Theoretical m/z 175.075905, Mass diff 0 (0 ppm), Formula C11H11O2"
+175.11168	3685
+176.06206	7382	"Theoretical m/z 176.062048, Mass diff 0 (0.07 ppm), SMILES C=1C=CC3=C(C=1)C=CC2=CC=CC=C23, Annotation [C14H10-2H]+, Rule of HR False"
+177.12738	2830
+178.07762	4559	"Theoretical m/z 178.077698, Mass diff 0 (0.44 ppm), SMILES C=1C=CC3=C(C=1)C=CC2=CC=CC=C23, Annotation [C14H10]+, Rule of HR False"
+179.08539	2703	"Theoretical m/z 179.085524, Mass diff 0 (0.75 ppm), SMILES C=1C=CC3=C(C=1)C=CC2=CC=CC=C23, Annotation [C14H10+H]+, Rule of HR True"
+179.1794	2905
+180.18268	3717
+180.98042	4835
+181.10109	2785
+181.19496	4123
+187.0542	2932	"Theoretical m/z 187.054775, Mass diff 0 (0 ppm), Formula C15H7"
+187.11169	3688
+194.996	2614
+195.0805	2873	"Theoretical m/z 195.08099, Mass diff 0 (0 ppm), Formula C14H11O"
+198.04614	11596
+198.12787	3678
+199.05399	6226	"Theoretical m/z 199.054775, Mass diff 0 (0 ppm), Formula C16H7"
+199.11185	5351
+200.06197	76592
+201.06992	48440	"Theoretical m/z 201.070425, Mass diff 0 (0 ppm), Formula C16H9"
+202.07768	128911
+203.08096	27418
+204.09323	5654
+205.01677	2304
+206.10915	2597
+207.03235	10783
+209.09612	2452
+213.06984	3193	"Theoretical m/z 213.070425, Mass diff 0 (0 ppm), Formula C17H9"
+213.0907	2317
+215.08531	4176	"Theoretical m/z 215.086075, Mass diff 0 (0 ppm), Formula C17H11"
+217.10138	3074
+219.04695	4608	"Theoretical m/z 219.044604, Mass diff -0.003 (0 ppm), Formula C15H7O2"
+219.11705	7117
+223.14821	2720
+225.04291	3668
+229.0015	8442
+229.10136	10767
+230.07266	96917
+231.07567	15542
+238.17177	2473
+240.1821	4130
+248.14314	2253
+250.07758	2433
+250.96765	4310
+254.01652	2566
+254.09647	3238
+257.05963	21060	"Theoretical m/z 257.060255, Mass diff 0 (0 ppm), Formula C18H9O2"
+258.06769	217964	"Theoretical m/z 258.067536, Mass diff 0 (0.6 ppm), SMILES O=C4C=CC(=O)C2=C4(C=CC=1C3=CC=CC=C3(C=CC=12)), Annotation [C18H10O2]+, Rule of HR False"
+259.07089	41866
+260.08344	6072
+260.14337	7176
+265.01996	4316
+266.99927	3709
+267.21103	2943
+277.07785	2359
+281.05121	5193
+289.18036	2342
+327.3045	2206
+361.02582	3270
+377.04804	2287
+400.98465	3401
+405.08231	2328
+

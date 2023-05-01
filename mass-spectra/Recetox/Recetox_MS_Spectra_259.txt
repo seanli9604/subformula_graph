@@ -1,0 +1,40 @@
+NAME: Tebuthiuron
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1523.2
+PRECURSORMZ: 171.08237
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C9H16N4OS
+INCHIKEY: HBPDKDSFLXWOAE-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC(C)(C)C1=NN=C(S1)N(C)C(=O)NC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 19
+67.05419	151446	"Theoretical m/z 67.054775, Mass diff 0 (0 ppm), Formula C5H7"
+70.07768	203392	"Theoretical m/z 70.077704, Mass diff 0 (0.34 ppm), SMILES CC(C)(C)C, Annotation [C5H12-2H]+, Rule of HR False"
+71.08548	521147	"Theoretical m/z 71.085529, Mass diff 0 (0.69 ppm), SMILES CC(C)(C)C, Annotation [C5H12-H]+, Rule of HR True"
+72.98545	221499	"Theoretical m/z 72.985498, Mass diff 0 (0.65 ppm), SMILES N(N)=CS, Annotation [CH4N2S-3H]+, Rule of HR True"
+74.00585	894383	"Theoretical m/z 74.005899, Mass diff 0 (0.66 ppm), SMILES N(C)CS, Annotation [C2H7NS-3H]+, Rule of HR True"
+82.07766	217385	"Theoretical m/z 82.07825, Mass diff 0 (0 ppm), Formula C6H10"
+83.08547	411034	"Theoretical m/z 83.086075, Mass diff 0 (0 ppm), Formula C6H11"
+85.01058	243275	"Theoretical m/z 85.01065, Mass diff 0 (0.82 ppm), SMILES CC(C)CS, Annotation [C4H10S-5H]+, Rule of HR True"
+85.10112	1191847	"Theoretical m/z 85.101725, Mass diff 0 (0 ppm), Formula C6H13"
+87.02628	713629	"Theoretical m/z 87.0263, Mass diff 0 (0.23 ppm), SMILES CC(C)CS, Annotation [C4H10S-3H]+, Rule of HR True"
+88.00893	909324
+89.01674	1201514	"Theoretical m/z 89.016796, Mass diff 0 (0.63 ppm), SMILES N=C(NC)S, Annotation [C2H6N2S-H]+, Rule of HR True"
+97.10114	375450	"Theoretical m/z 97.101725, Mass diff 0 (0 ppm), Formula C7H13"
+129.0354	802892	"Theoretical m/z 129.03404, Mass diff -0.002 (0 ppm), Formula C9H5O"
+156.05882	14589671	"Theoretical m/z 156.058994, Mass diff 0 (1.11 ppm), SMILES N=1N=C(C(C)(C)C)SC=1N, Annotation [C6H11N3S-H]+, Rule of HR True"
+157.06204	980924
+158.05467	646776
+171.08237	2772215	"Theoretical m/z 171.082474, Mass diff 0 (0.61 ppm), SMILES N=1N=C(C(C)(C)C)SC=1NC, Annotation [C7H13N3S]+, Rule of HR False"
+172.08536	167281
+

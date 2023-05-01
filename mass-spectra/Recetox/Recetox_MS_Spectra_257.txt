@@ -1,0 +1,47 @@
+NAME: Methabenzthiazuron
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1648.3
+PRECURSORMZ: 164.0401
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C10H11N3OS
+INCHIKEY: RRVIAQKBTUQODI-UHFFFAOYSA-N
+INCHI: 
+SMILES: CNC(=O)N(C)C1=NC2=CC=CC=C2S1
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 26
+68.97929	631688	"Theoretical m/z 68.979896, Mass diff 0 (0 ppm), Formula C3HS"
+69.98714	244080
+77.03852	264525	"Theoretical m/z 77.038578, Mass diff 0 (0.75 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+78.04639	497256	"Theoretical m/z 78.046403, Mass diff 0 (0.16 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6]+, Rule of HR False"
+80.97932	260910	"Theoretical m/z 80.979896, Mass diff 0 (0 ppm), Formula C4HS"
+81.98714	868671
+84.00283	261645
+90.03382	261541	"Theoretical m/z 90.033822, Mass diff 0 (0.03 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N-3H]+, Rule of HR True"
+91.05419	1043948	"Theoretical m/z 91.054775, Mass diff 0 (0 ppm), Formula C7H7"
+92.97934	240958	"Theoretical m/z 92.979896, Mass diff 0 (0 ppm), Formula C5HS"
+94.99496	581942	"Theoretical m/z 94.995546, Mass diff 0 (0 ppm), Formula C5H3S"
+96.00276	1716976
+105.06985	873641	"Theoretical m/z 105.070425, Mass diff 0 (0 ppm), Formula C8H9"
+108.00275	3784398
+109.01062	1955145	"Theoretical m/z 109.010646, Mass diff 0 (0.24 ppm), SMILES C=1C=CC(=CC=1)S, Annotation [C6H6S-H]+, Rule of HR True"
+109.99857	278518
+122.00581	999567	"Theoretical m/z 122.005899, Mass diff 0 (0.73 ppm), SMILES NC1=CC=CC=C1S, Annotation [C6H7NS-3H]+, Rule of HR True"
+134.00578	341889	"Theoretical m/z 134.005893, Mass diff 0 (0.85 ppm), SMILES N1=CSC2=CC=CC=C12, Annotation [C7H5NS-H]+, Rule of HR True"
+135.01364	10130628
+136.02145	23248198	"Theoretical m/z 136.021543, Mass diff 0 (0.69 ppm), SMILES N1=CSC2=CC=CC=C12, Annotation [C7H5NS+H]+, Rule of HR True"
+137.02476	2320304
+138.0172	1133810
+163.03238	5217990	"Theoretical m/z 163.032444, Mass diff 0 (0.39 ppm), SMILES N=2C1=CC=CC=C1SC=2NC, Annotation [C8H8N2S-H]+, Rule of HR True"
+164.0401	15450225
+165.0435	1194566
+166.036	491996
+

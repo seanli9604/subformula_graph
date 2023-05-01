@@ -1,0 +1,65 @@
+NAME: 1,2-Benzanthraquinone
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2588.5
+PRECURSORMZ: 258.0676
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C18H10O2
+INCHIKEY: LHMRXAIRPKSGDE-UHFFFAOYSA-N
+INCHI: 
+SMILES: C1=CC=C2C(=C1)C=CC3=C2C(=O)C4=CC=CC=C4C3=O
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 44
+74.01513	253592	"Theoretical m/z 74.015103, Mass diff 0 (0.37 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-4H]+, Rule of HR False"
+75.02296	368350	"Theoretical m/z 75.022928, Mass diff 0 (0.43 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-3H]+, Rule of HR True"
+76.0308	188135	"Theoretical m/z 76.030753, Mass diff 0 (0.62 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-2H]+, Rule of HR False"
+86.01514	153645	"Theoretical m/z 86.01565, Mass diff 0 (0 ppm), Formula C7H2"
+87.023	648973	"Theoretical m/z 87.023475, Mass diff 0 (0 ppm), Formula C7H3"
+88.03079	1620102	"Theoretical m/z 88.0313, Mass diff 0 (0 ppm), Formula C7H4"
+88.53249	239000
+98.01518	336487
+99.02296	422879	"Theoretical m/z 99.023475, Mass diff 0 (0 ppm), Formula C8H3"
+100.03076	2264243
+100.53252	443285
+101.03862	2408269	"Theoretical m/z 101.039125, Mass diff 0 (0 ppm), Formula C8H5"
+101.54028	436904
+114.53777	375448
+115.03605	142102
+115.05425	159265	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+122.0151	145973
+126.04642	573025
+129.03354	405945	"Theoretical m/z 129.03404, Mass diff 0 (0 ppm), Formula C9H5O"
+149.03856	185878	"Theoretical m/z 149.039125, Mass diff 0 (0 ppm), Formula C12H5"
+150.04637	530582
+152.06201	208017
+163.05411	160977	"Theoretical m/z 163.054775, Mass diff 0 (0 ppm), Formula C13H7"
+174.04634	717312
+175.05417	433396	"Theoretical m/z 175.054775, Mass diff 0 (0 ppm), Formula C14H7"
+176.06194	470496	"Theoretical m/z 176.0626, Mass diff 0 (0 ppm), Formula C14H8"
+198.04637	454705
+199.0542	738576	"Theoretical m/z 199.054775, Mass diff 0 (0 ppm), Formula C16H7"
+200.06201	6428866
+201.06981	4313462	"Theoretical m/z 201.070425, Mass diff 0 (0 ppm), Formula C16H9"
+202.07762	10460324
+203.0809	1841535
+204.08455	143752
+207.0323	179256
+213.06967	154070	"Theoretical m/z 213.070425, Mass diff 0 (0 ppm), Formula C17H9"
+214.07788	171289
+219.08048	502061	"Theoretical m/z 219.08099, Mass diff 0 (0 ppm), Formula C16H11O"
+229.06493	1103506	"Theoretical m/z 229.064798, Mass diff 0 (0.58 ppm), SMILES O=C(C1=CC=CC=C1)C=2C=CC3=CC=CC=C3(C=2), Annotation [C17H12O-3H]+, Rule of HR True"
+230.07265	7278105
+231.07568	1254647
+257.05975	4307219	"Theoretical m/z 257.060255, Mass diff 0 (0 ppm), Formula C18H9O2"
+258.0676	13283367	"Theoretical m/z 258.067536, Mass diff 0 (0.25 ppm), SMILES O=C1C4=CC=CC=C4(C(=O)C=2C3=CC=CC=C3(C=CC1=2)), Annotation [C18H10O2]+, Rule of HR False"
+259.07086	2587442
+260.08316	570557
+

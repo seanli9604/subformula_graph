@@ -1,0 +1,36 @@
+NAME: Ethiofencarb
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1850.2
+PRECURSORMZ: 169.06355
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C11H15NO2S
+INCHIKEY: HEZNVIYQEUHLNI-UHFFFAOYSA-N
+INCHI: 
+SMILES: CCSCC1=CC=CC=C1OC(=O)NC
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 15
+77.03855	13985773	"Theoretical m/z 77.038578, Mass diff 0 (0.36 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6-H]+, Rule of HR True"
+78.04641	6440518	"Theoretical m/z 78.046403, Mass diff 0 (0.09 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6]+, Rule of HR False"
+79.05421	13785747	"Theoretical m/z 79.054228, Mass diff 0 (0.22 ppm), SMILES C1=CC=CC=C1, Annotation [C6H6+H]+, Rule of HR True"
+91.05423	1772922	"Theoretical m/z 91.054226, Mass diff 0 (0.05 ppm), SMILES C1=CC=C(C=C1)C, Annotation [C7H8-H]+, Rule of HR True"
+95.04913	2584242	"Theoretical m/z 95.049141, Mass diff 0 (-0.12 ppm), SMILES C\C(=C\C=C)C#[O+], Annotation [C6H7O]+, Rule of HR True"
+107.04911	132476440	"Theoretical m/z 107.049141, Mass diff 0 (-0.29 ppm), SMILES [OH+]=CC1=CC=CC=C1, Annotation [C7H7O]+, Rule of HR True"
+108.05238	18012446
+109.01057	2088900	"Theoretical m/z 109.011196, Mass diff 0 (0 ppm), Formula C6H5S"
+121.01058	1346309	"Theoretical m/z 121.010644, Mass diff 0 (0.53 ppm), SMILES C1=CC=C(C=C1)CS, Annotation [C7H8S-3H]+, Rule of HR True"
+137.00552	3483633	"Theoretical m/z 137.005563, Mass diff 0 (0.31 ppm), SMILES OC1=CC=CC=C1CS, Annotation [C7H8OS-3H]+, Rule of HR True"
+139.02115	4352836	"Theoretical m/z 139.021213, Mass diff 0 (0.45 ppm), SMILES OC1=CC=CC=C1CS, Annotation [C7H8OS-H]+, Rule of HR True"
+165.07846	1702527	"Theoretical m/z 165.078431, Mass diff 0 (0.18 ppm), SMILES O=C(OC1=CC=CC=C1C)NC, Annotation [C9H11NO2]+, Rule of HR False"
+168.0603	31533380
+169.06355	2692264
+170.05605	1511835
+

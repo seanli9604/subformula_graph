@@ -1,0 +1,46 @@
+NAME: Hydroxyfluoren-9-one
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 1751.1
+PRECURSORMZ: 196.0518
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C13H8O2
+INCHIKEY: QUUNMPSDKIURJD-UHFFFAOYSA-N
+INCHI: 
+SMILES: C1=CC=C2C(=C1)C3=C(C2=O)C(=CC=C3)O
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 25
+74.01513	141612	"Theoretical m/z 74.015103, Mass diff 0 (0.37 ppm), SMILES C=1C=CC=CC=1, Annotation [C6H6-4H]+, Rule of HR False"
+83.04919	116326	"Theoretical m/z 83.04969, Mass diff 0 (0 ppm), Formula C5H7O"
+83.08556	134022
+84.02828	149099
+85.00732	112940	"Theoretical m/z 85.007825, Mass diff 0 (0 ppm), Formula C7H"
+86.01514	295574	"Theoretical m/z 86.01565, Mass diff 0 (0 ppm), Formula C7H2"
+87.02299	405326	"Theoretical m/z 87.023475, Mass diff 0 (0 ppm), Formula C7H3"
+88.03081	233943	"Theoretical m/z 88.0313, Mass diff 0 (0 ppm), Formula C7H4"
+89.03863	392539	"Theoretical m/z 89.039125, Mass diff 0 (0 ppm), Formula C7H5"
+98.01518	211081
+110.01516	104619
+111.02296	123043	"Theoretical m/z 111.023475, Mass diff 0 (0 ppm), Formula C9H3"
+113.0386	640891	"Theoretical m/z 113.039125, Mass diff 0 (0 ppm), Formula C9H5"
+114.04644	319678
+137.03865	307633	"Theoretical m/z 137.039125, Mass diff 0 (0 ppm), Formula C11H5"
+138.04645	308922
+139.05424	6177216	"Theoretical m/z 139.054775, Mass diff 0 (0 ppm), Formula C11H7"
+140.062	2336322
+141.06532	228447
+167.04915	425739	"Theoretical m/z 167.049142, Mass diff 0 (0.05 ppm), SMILES OC1=CC=CC(=C1)C=2C=CC=CC=2, Annotation [C12H10O-3H]+, Rule of HR True"
+168.05692	7280965
+169.06026	1047974
+196.0518	10461173	"Theoretical m/z 196.051881, Mass diff 0 (0.41 ppm), SMILES O=C2C1=CC=CC=C1C=3C=CC=C(O)C2=3, Annotation [C13H8O2]+, Rule of HR False"
+196.11925	421679
+197.0551	1527041
+

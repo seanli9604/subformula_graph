@@ -1,0 +1,68 @@
+NAME: Fenhexamid
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2416.6
+PRECURSORMZ: 301.06299
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C14H17Cl2NO2
+INCHIKEY: VDLGAVXLJYLFDH-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1(CCCCC1)C(=O)NC2=C(C(=C(C=C2)O)Cl)Cl
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 47
+67.05418	315712	"Theoretical m/z 67.054229, Mass diff 0 (0.73 ppm), SMILES CCCCC, Annotation [C5H12-5H]+, Rule of HR True"
+69.06982	1262124	"Theoretical m/z 69.069879, Mass diff 0 (0.85 ppm), SMILES CCCCC, Annotation [C5H12-3H]+, Rule of HR True"
+78.04639	365633	"Theoretical m/z 78.04695, Mass diff 0 (0 ppm), Formula C6H6"
+79.05419	204412	"Theoretical m/z 79.054775, Mass diff 0 (0 ppm), Formula C6H7"
+80.01305	309238	"Theoretical m/z 80.013639, Mass diff 0 (0 ppm), Formula C4H2NO"
+81.06986	479257	"Theoretical m/z 81.069878, Mass diff 0 (-0.22 ppm), SMILES C1C[C+]2CCC12, Annotation [C6H9]+, Rule of HR True"
+83.08547	566239	"Theoretical m/z 83.085529, Mass diff 0 (0.71 ppm), SMILES C1CCCCC1, Annotation [C6H12-H]+, Rule of HR True"
+84.98392	190844	"Theoretical m/z 84.984503, Mass diff 0 (0 ppm), Formula C4H2Cl"
+86.9632	132537	"Theoretical m/z 86.963767, Mass diff 0 (0 ppm), Formula C3ClO"
+95.0855	190292	"Theoretical m/z 95.086075, Mass diff 0 (0 ppm), Formula C7H11"
+97.10114	12747316	"Theoretical m/z 97.101177, Mass diff 0 (0.38 ppm), SMILES CC1CCCCC1, Annotation [C7H14-H]+, Rule of HR True"
+98.10448	973926
+111.11678	283649	"Theoretical m/z 111.117375, Mass diff 0 (0 ppm), Formula C8H15"
+111.99484	169272	"Theoretical m/z 111.995402, Mass diff 0 (0 ppm), Formula C5H3ClN"
+113.00259	953304	"Theoretical m/z 113.00274, Mass diff 0 (0 ppm), Formula C8HO"
+114.01045	184618	"Theoretical m/z 114.011052, Mass diff 0 (0 ppm), Formula C5H5ClN"
+114.05494	196644	"Theoretical m/z 114.055503, Mass diff 0 (0 ppm), Formula C5H8NO2"
+114.06747	175104	"Theoretical m/z 114.06808, Mass diff 0 (0 ppm), Formula C6H10O2"
+114.99965	383057
+115.05417	257880	"Theoretical m/z 115.054775, Mass diff 0 (0 ppm), Formula C9H7"
+131.08545	144666	"Theoretical m/z 131.086075, Mass diff 0 (0 ppm), Formula C10H11"
+140.99748	213133	"Theoretical m/z 140.997595, Mass diff 0 (0.82 ppm), SMILES OC=1C=CC(N)=C(C=1)Cl, Annotation [C6H6ClNO-2H]+, Rule of HR False"
+143.01329	156905	"Theoretical m/z 143.013245, Mass diff 0 (0.31 ppm), SMILES OC=1C=CC(N)=C(C=1)Cl, Annotation [C6H6ClNO]+, Rule of HR False"
+147.08028	133592	"Theoretical m/z 147.08099, Mass diff 0 (0 ppm), Formula C10H11O"
+147.97139	486390	"Theoretical m/z 147.972079, Mass diff 0 (0 ppm), Formula C5H4Cl2N"
+149.02322	131728
+149.96851	347678
+175.9664	820653	"Theoretical m/z 175.966449, Mass diff 0 (0.28 ppm), SMILES OC=1C=CC(N)=C(C=1Cl)Cl, Annotation [C6H5Cl2NO-H]+, Rule of HR True"
+176.9742	9400059	"Theoretical m/z 176.974274, Mass diff 0 (0.42 ppm), SMILES OC=1C=CC(N)=C(C=1Cl)Cl, Annotation [C6H5Cl2NO]+, Rule of HR False"
+177.97751	1200199
+178.97119	6204536	"Theoretical m/z 178.968853, Mass diff -0.003 (0 ppm), Formula C12Cl"
+179.97453	464452
+180.96822	983550
+202.95342	140610
+210.03159	138444	"Theoretical m/z 210.03164, Mass diff 0 (0.24 ppm), SMILES O=C(NC=1C=CC(O)=CC=1Cl)C(C)C, Annotation [C10H12ClNO2-3H]+, Rule of HR True"
+246.00815	240787	"Theoretical m/z 246.008304, Mass diff 0 (0.63 ppm), SMILES O=C(NC=1C=CC(O)=C(C=1Cl)Cl)C(C)C, Annotation [C10H11Cl2NO2-H]+, Rule of HR True"
+248.00539	215701	"Theoretical m/z 248.00338, Mass diff -0.003 (0 ppm), Formula C13H8Cl2N"
+265.08597	156099
+266.09409	5561026	"Theoretical m/z 266.094226, Mass diff 0 (0.51 ppm), SMILES O=C(NC=1C=CC(O)=CC=1Cl)C2(C)(CCCCC2), Annotation [C14H18ClNO2-H]+, Rule of HR True"
+267.09729	854587
+268.09103	1699304
+269.09451	212357
+301.06299	2102136	"Theoretical m/z 301.063081, Mass diff 0 (0.3 ppm), SMILES O=C(NC=1C=CC(O)=C(C=1Cl)Cl)C2(C)(CCCCC2), Annotation [C14H17Cl2NO2]+, Rule of HR False"
+302.06625	296305
+303.05997	1279968
+305.0571	217502
+337.25253	208277
+

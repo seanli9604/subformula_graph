@@ -1,0 +1,35 @@
+NAME: Siduron
+SCANNUMBER: -1
+RETENTIONTIME: -1
+RETENTIONINDEX: 2153.5
+PRECURSORMZ: 232.15689
+PRECURSORTYPE: [M]+
+IONMODE: Positive
+SPECTRUMTYPE: Centroid
+FORMULA: C14H20N2O
+INCHIKEY: JXVIIQLNUPXOII-UHFFFAOYSA-N
+INCHI: 
+SMILES: CC1CCCCC1NC(=O)NC2=CC=CC=C2
+AUTHORS: Price et al., RECETOX, Masaryk University (CZ)
+COLLISIONENERGY: 70eV
+INSTRUMENT: Q Exactive GC Orbitrap GC-MS/MS
+INSTRUMENTTYPE: GC-EI-Orbitrap
+IONIZATION: EI+
+LICENSE: CC BY-NC
+COMMENT: 
+Num Peaks: 14
+67.05419	99445	"Theoretical m/z 67.054229, Mass diff 0 (0.58 ppm), SMILES CCCCC, Annotation [C5H12-5H]+, Rule of HR True"
+71.08549	612882	"Theoretical m/z 71.085529, Mass diff 0 (0.55 ppm), SMILES CCCCC, Annotation [C5H12-H]+, Rule of HR True"
+85.10113	824194	"Theoretical m/z 85.101179, Mass diff 0 (0.58 ppm), SMILES C1CCCCC1, Annotation [C6H12+H]+, Rule of HR True"
+92.06203	194851	"Theoretical m/z 92.0626, Mass diff 0 (0 ppm), Formula C7H8"
+93.05728	6788505	"Theoretical m/z 93.057297, Mass diff 0 (0.19 ppm), SMILES NC1=CC=CC=C1, Annotation [C6H7N]+, Rule of HR False"
+94.06062	462636
+99.11676	168947	"Theoretical m/z 99.116827, Mass diff 0 (0.68 ppm), SMILES CC1CCCCC1, Annotation [C7H14+H]+, Rule of HR True"
+113.13238	107321	"Theoretical m/z 113.133026, Mass diff 0 (0 ppm), Formula C8H17"
+119.03651	117681
+135.08031	192830	"Theoretical m/z 135.08099, Mass diff 0 (0 ppm), Formula C9H11O"
+136.0518	68106
+137.07086	112688	"Theoretical m/z 137.070936, Mass diff 0 (0.56 ppm), SMILES O=C(N)NC1=CC=CC=C1, Annotation [C7H8N2O+H]+, Rule of HR True"
+137.13245	79465	"Theoretical m/z 137.133026, Mass diff 0 (0 ppm), Formula C10H17"
+232.15689	102676	"Theoretical m/z 232.157014, Mass diff 0 (0.53 ppm), SMILES O=C(NC1=CC=CC=C1)NC2CCCCC2(C), Annotation [C14H20N2O]+, Rule of HR False"
+
