@@ -42,12 +42,13 @@ If ion mode information is present in the metadata, the masses in the mass spect
 be added/subtracted) before it is parsed into the dictionary.
 
 If you prefer to parse the mass spectral data and perform corrections on it yourself, you can directly use the mass_spectrum module to perform the analyses
-like so:
+by instantiating a MassSpectrum object with a {mass: intensity} dictionary and a ppm error:
 
 ```python
 >>> from mass_spectrum import MassSpectrum
 >>> spec_dict = {80.02457645207001: 56423.6, 96.01977645207: 544152.1, 98.03537645207: 40399.2, 110.02317645207: 331489.9, 124.01557645207001: 1709976.1, 126.01867645207: 84719.3, 138.01907645207: 494922.3, 154.01407645207001: 1736880.5, 184.01207645207: 12003717.0}
 >>> ppm_error = 5
+>>> ms = MassSpectrum(spec_dict, ppm_error)
 >>> allowed_elements = ["C","H","N","O"]
 >>> annotations = ms.get_spectral_annotations(allowed_elements, ms.product_scoring_function)
 >>> annotations
