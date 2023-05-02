@@ -96,7 +96,7 @@ to those which are annotated with a molecular formula, and red mass peaks corres
 A green dot is included if the formulae which annotates two mass peaks possess a formula-subformula relationship.
 In the above plot, we can see that only 29.2% of the spectrum is explained (i.e only 29.2% of the total ion current received by the detector corresponds 
 to mass peaks which are annotated by formulae). This suggests that either the mass spectrum is very low quality, the estimate of the ppm error of the 
-instrument is too high, or the formula annotation is wrong. In this case, the last possibility is correct.
+instrument is too low, or the formula annotation is wrong. In this case, the last possibility is correct.
 
 Indeed, we can plot the correct annotation instead
 
