@@ -17,7 +17,7 @@ df = pd.read_csv("mass-spectra/semiochemical-dataset.csv") #reads semiochemical 
 
 #The semiochemical dataset, denoted by a list of tuples representing the compound ID filename, the scan number and the 
 #correct molecular formula as identified by an expert analyst
-dataset = [(row[0], row[1], row[2], row[3]) for row in zip(df['Compound ID'], df['File Name'], df['Scan Number'], df['Correct Formula'])] #list of rows of the data set 
+data = [(row[0], row[1], row[2], row[3]) for row in zip(df['Compound ID'], df['File Name'], df['Scan Number'], df['Correct Formula'])] #list of rows of the data set 
 
 #time for analysis: 44.55813224599842
 
@@ -135,3 +135,4 @@ def generate_all_latex_tables(dataset):
         df, caption = analyse_one_case(row)
         df_to_latex_table(df, formulae=[1], captiontext=caption)
     
+
