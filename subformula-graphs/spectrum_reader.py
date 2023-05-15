@@ -16,7 +16,7 @@ If not, see <https://www.gnu.org/licenses/>.
 
 from abc import ABC
 import netCDF4  
-import os 
+import os
 
 PROTON_MASS = 1.00782503207
 ELECTRON_MASS = 0.00054858
@@ -254,13 +254,28 @@ class NetCDFReader(SpectrumReader):
                 spectrum[mass] -= baseline[mass]
 
         return {precise_mass_dict[mass]: spectrum[mass] for mass in spectrum if spectrum[mass] > 0}
-        
+
+
+class CSVReader(SpectrumReader):
+
+    '''Note: assume CSV has no headers and no metadata!'''
+
+    def read_mass_spectrum(self):
+        mass_spectrum = {}
+        file = open(self.filename, "r")
+        for line in file:
+            mass, abundance = line.split(",")
+            mass_spectrum[float(mass)] = float(abundance[:-1])
+        return mass_spectrum
+
+
 
 
 def read_ms_from_file(filename):
 
     ''' Given a suitable data file, parses it and converts it 
         into a reader object '''
+        
 
     if filename.endswith(".jdx"):
         return JCampReader(filename)
@@ -268,8 +283,10 @@ def read_ms_from_file(filename):
         return RecetoxReader(filename)
     elif filename.endswith(".txt"):
         return MassBankReader(filename)
-    elif filename.endswith(".CDF"):
+    elif filename.endswith(".CDF") or filename.endswith(".cdf"):
         return NetCDFReader(filename)
+    elif filename.endswith(".csv"):
+        return CSVReader(filename)
     else:
         raise Exception("Error, cannot read this type of file!")
 

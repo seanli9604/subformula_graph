@@ -32,9 +32,11 @@ def get_rank_one_case(row, scoring_function = func, ppm_error=10, intensity_boun
     scoring_func = func(ms)
     annotations = ms.compute_most_likely_molecular_ion(alpha, scoring_func, lower_bound, upper_bound, cutoff_val=intensity_bound)
     candidate_molecular_ions = [str(a[-1]) for a in annotations]
+    
 
     if correct_annotation in candidate_molecular_ions:
         rank = candidate_molecular_ions.index(correct_annotation) + 1
+        print(ms.get_formula_dict(annotations[rank-1]))
     else:
         rank = 0
 
@@ -136,3 +138,4 @@ def generate_all_latex_tables(dataset):
         df_to_latex_table(df, formulae=[1], captiontext=caption)
     
 
+get_rank_all_cases(data)

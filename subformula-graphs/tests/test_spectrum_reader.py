@@ -36,3 +36,8 @@ def test_netcdf():
     spec_lst = sorted([mass for mass in spectrum], reverse=True, key=lambda m: spectrum[m])
     assert(int(spec_lst[0]) == 138)
 
+def test_csv():
+    data = spectrum_reader.read_ms_from_file("example.csv")
+    spectrum = data.read_mass_spectrum()
+    assert(len(spectrum) == 3)
+
