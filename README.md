@@ -4,6 +4,9 @@ A loose collection of modules which can read mass spectral data (EI-MS or MS/MS)
 using the parent subformula graph (PSG) method, and then for every (possible) mass peak in the mass spectrum, visualise the annotated
 mass spectrum as a 2 dimensional fragment plot. 
 
+If you use these modules in your work, please cite:
+Li, S., Bohman, B., Flematti, G.R. et al. Determining the parent and associated fragment formulae in mass spectrometry via the parent subformula graph. J Cheminform 15, 104 (2023). https://doi.org/10.1186/s13321-023-00776-y
+
 ## Installation
 
 1, Install Conda (see https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
